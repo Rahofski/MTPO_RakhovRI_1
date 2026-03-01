@@ -1,0 +1,8 @@
+com\fca\io\JsonResultWriterTest.class
+com\fca\service\ComparisonServiceTest.class
+com\fca\algorithm\BitSetCboTest.class
+com\fca\algorithm\CollectionCboTest.class
+com\fca\io\JsonDataLoaderTest.class
+com\fca\implication\ImplicationGeneratorTest.class
+com\fca\model\FormalConceptTest.class
+com\fca\model\FormalContextTest.class

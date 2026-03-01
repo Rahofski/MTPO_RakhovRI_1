@@ -1,0 +1,11 @@
+{
+  "objects": ["Лев", "Орёл", "Дельфин", "Пингвин", "Летучая мышь"],
+  "attributes": ["млекопитающее", "птица", "летает", "плавает", "хищник", "теплокровное"],
+  "incidence": [
+    [true,  false, false, false, true,  true],
+    [false, true,  true,  false, true,  true],
+    [true,  false, false, true,  false, true],
+    [false, true,  false, true,  false, true],
+    [true,  false, true,  false, false, true]
+  ]
+}
