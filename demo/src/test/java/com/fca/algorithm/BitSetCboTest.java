@@ -157,7 +157,6 @@ class BitSetCboTest {
     void assumption_largeContext() {
         assumeTrue(Runtime.getRuntime().maxMemory() > 50_000_000,
                 "Достаточно памяти для теста");
-        // Создаём контекст 10×10
         int n = 10;
         List<String> objs = new ArrayList<>();
         List<String> attrs = new ArrayList<>();

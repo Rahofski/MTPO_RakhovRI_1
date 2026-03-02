@@ -219,16 +219,17 @@ public class ConsoleMenu {
         }
     }
 
+    private static final String DEFAULT_RESULT_PATH = "result.json";
+
     private void saveResult() {
         if (lastResult == null) {
             out.println("Нет результатов для сохранения. Сначала запустите алгоритм.");
             return;
         }
-        out.print("Введите путь для сохранения JSON: ");
+        out.print("Введите путь для сохранения JSON (или Enter для '" + DEFAULT_RESULT_PATH + "'): ");
         String path = scanner.nextLine().trim();
         if (path.isEmpty()) {
-            out.println("Ошибка: пустой путь.");
-            return;
+            path = DEFAULT_RESULT_PATH;
         }
         try {
             resultWriter.write(lastResult, path);

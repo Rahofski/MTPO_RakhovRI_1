@@ -21,7 +21,6 @@ public class CollectionCbo implements CboAlgorithm {
         int nAttr = context.getAttributeCount();
 
         if (nAttr == 0) {
-            // Единственное понятие: (G, ∅)
             Set<String> allObjects = new TreeSet<>(context.getObjects());
             return List.of(new FormalConcept(allObjects, Collections.emptySet()));
         }

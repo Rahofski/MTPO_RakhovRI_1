@@ -14,13 +14,8 @@ public interface CboAlgorithm {
     /**
      * Вычислить все формальные понятия заданного формального контекста.
      *
-     * @param context формальный контекст
-     * @return список всех формальных понятий
-     */
+    */
     List<FormalConcept> computeConcepts(FormalContext context);
 
-    /**
-     * Название реализации алгоритма.
-     */
     String getName();
 }
