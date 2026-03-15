@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fca.bdd.RunCucumberTest" time="0.544" tests="68" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo\target\test-classes;C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo\target\classes;C:\Users\romar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\romar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\romar\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\romar\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\romar\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\romar\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\romar\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\romar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\romar\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\romar\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\romar\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\romar\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\romar\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\romar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-picocontainer\7.15.0\cucumber-picocontainer-7.15.0.jar;C:\Users\romar\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\romar\AppData\Local\Temp\surefire6108410411884749738\surefirebooter-20260315023725007_3.jar C:\Users\romar\AppData\Local\Temp\surefire6108410411884749738 2026-03-15T02-37-24_798-jvmRun1 surefire-20260315023725007_1tmp surefire_0-20260315023725007_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo\target\test-classes;C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo\target\classes;C:\Users\romar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\romar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\romar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\romar\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\romar\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\romar\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\romar\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\romar\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\romar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\romar\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\romar\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\romar\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\romar\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\romar\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\romar\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\romar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\romar\.m2\repository\io\cucumber\cucumber-picocontainer\7.15.0\cucumber-picocontainer-7.15.0.jar;C:\Users\romar\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\romar\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\romar"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\romar\AppData\Local\Temp\surefire6108410411884749738\surefirebooter-20260315023725007_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="romar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\romar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\romar\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_2\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\romar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\romar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\romar\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Java\jdk-17.0.2\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\w64devkit\bin;C:\Users\romar\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\romar\AppData\Local\nvm;C:\Users\romar\AppData\Local\nvm\nodejs;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\romar\AppData\Local\Microsoft\WindowsApps;C:\Users\romar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\romar\AppData\Local\GitHubDesktop\bin;C:\Java\IntelliJ IDEA 2024.3.1\bin;;C:\Users\romar\AppData\Roaming\npm;C:\Users\romar\go\bin;C:\DB\bin;C:\Users\romar\AppData\Local\Android\Sdk\platform-tools;C:\Users\romar\AppData\Local\Android\Sdk\tools;C:\Users\romar\AppData\Local\Android\Sdk\emulator;C:\Users\romar\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\romar\yandex-cloud\bin;C:\Users\romar\Downloads\railway;C:\Users\romar\AppData\Roaming\Composer\vendor\bin;C:\Users\romar\.dotnet\tools;c:\Users\romar\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Результаты BitSet и Collections совпадают на контексте животных" classname="Оба алгоритма дают идентичные результаты на одних данных" time="0.207">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р РµР·СѓР»СЊС‚Р°С‚С‹ BitSet Рё Collections СЃРѕРІРїР°РґР°СЋС‚ РЅР° РєРѕРЅС‚РµРєСЃС‚Рµ Р¶РёРІРѕС‚РЅС‹С… &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:53&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m               &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO&amp#27;[0m                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РїРѕР»РЅРѕСЃС‚СЊСЋ СЃРѕРіР»Р°СЃРѕРІР°РЅ&amp#27;[0m                              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРіР»Р°СЃРѕРІР°РЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Результаты BitSet и Collections совпадают на контексте животных" classname="Оба алгоритма дают идентичные результаты на одних данных" time="0.013">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р РµР·СѓР»СЊС‚Р°С‚С‹ BitSet Рё Collections СЃРѕРІРїР°РґР°СЋС‚ РЅР° РєРѕРЅС‚РµРєСЃС‚Рµ Р¶РёРІРѕС‚РЅС‹С… &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:53&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m               &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO&amp#27;[0m                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РїРѕР»РЅРѕСЃС‚СЊСЋ СЃРѕРіР»Р°СЃРѕРІР°РЅ&amp#27;[0m                              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРіР»Р°СЃРѕРІР°РЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Результаты BDD-сценария совпадают с результатами unit-теста" classname="Оба алгоритма дают идентичные результаты на одних данных" time="0.024">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р РµР·СѓР»СЊС‚Р°С‚С‹ BDD-СЃС†РµРЅР°СЂРёСЏ СЃРѕРІРїР°РґР°СЋС‚ СЃ СЂРµР·СѓР»СЊС‚Р°С‚Р°РјРё unit-С‚РµСЃС‚Р°                  &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:60&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹РїРѕР»РЅСЏСЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m&amp#27;[32m Рё СЃРѕС…СЂР°РЅСЏСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_bitset"&amp#27;[0m       &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РІС‹РїРѕР»РЅСЏСЋ_Рё_СЃРѕС…СЂР°РЅСЏСЋ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РІС‹РїРѕР»РЅСЏСЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m&amp#27;[32m Рё СЃРѕС…СЂР°РЅСЏСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_collections"&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РІС‹РїРѕР»РЅСЏСЋ_Рё_СЃРѕС…СЂР°РЅСЏСЋ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_bitset"&amp#27;[0m&amp#27;[32m СЃРѕРІРїР°РґР°РµС‚ СЃ РїСЂСЏРјС‹Рј Р·Р°РїСѓСЃРєРѕРј BitSet&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРѕРІРїР°РґР°РµС‚_СЃ_unit_bitset(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_collections"&amp#27;[0m&amp#27;[32m СЃРѕРІРїР°РґР°РµС‚ СЃ РїСЂСЏРјС‹Рј Р·Р°РїСѓСЃРєРѕРј Collections&amp#27;[0m                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРѕРІРїР°РґР°РµС‚_СЃ_unit_collections(java.lang.String)&amp#27;[0m
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║           Сравнение результатов BDD-тестов и Unit-тестов               ║
+╠══════════════════════╦════════════════╦════════════════╦═══════════════╣
+║ Алгоритм             ║ BDD (мс)       ║ Unit (мс)      ║ Совпадение    ║
+╠══════════════════════╬════════════════╬════════════════╬═══════════════╣
+║ CbO (Collections)    ║        0,988   ║        0,579   ║ ДА ✓          ║
+║ CbO (BitSet)         ║        0,898   ║        0,516   ║ ДА ✓          ║
+╚══════════════════════╩════════════════╩════════════════╩═══════════════╝
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРІРѕРґРєР° СЃСЂР°РІРЅРµРЅРёСЏ BDD vs Unit РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                                        &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРІРѕРґРєР°_bdd_vs_unit()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Результаты BDD-сценария совпадают с результатами unit-теста" classname="Оба алгоритма дают идентичные результаты на одних данных" time="0.008">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р РµР·СѓР»СЊС‚Р°С‚С‹ BDD-СЃС†РµРЅР°СЂРёСЏ СЃРѕРІРїР°РґР°СЋС‚ СЃ СЂРµР·СѓР»СЊС‚Р°С‚Р°РјРё unit-С‚РµСЃС‚Р°                  &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:60&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹РїРѕР»РЅСЏСЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m&amp#27;[32m Рё СЃРѕС…СЂР°РЅСЏСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_bitset"&amp#27;[0m       &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РІС‹РїРѕР»РЅСЏСЋ_Рё_СЃРѕС…СЂР°РЅСЏСЋ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РІС‹РїРѕР»РЅСЏСЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m&amp#27;[32m Рё СЃРѕС…СЂР°РЅСЏСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_collections"&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РІС‹РїРѕР»РЅСЏСЋ_Рё_СЃРѕС…СЂР°РЅСЏСЋ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_bitset"&amp#27;[0m&amp#27;[32m СЃРѕРІРїР°РґР°РµС‚ СЃ РїСЂСЏРјС‹Рј Р·Р°РїСѓСЃРєРѕРј BitSet&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРѕРІРїР°РґР°РµС‚_СЃ_unit_bitset(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"bdd_collections"&amp#27;[0m&amp#27;[32m СЃРѕРІРїР°РґР°РµС‚ СЃ РїСЂСЏРјС‹Рј Р·Р°РїСѓСЃРєРѕРј Collections&amp#27;[0m                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРѕРІРїР°РґР°РµС‚_СЃ_unit_collections(java.lang.String)&amp#27;[0m
+
+╔═══════════════════════════════════════════════════════════════════════╗
+║           Сравнение результатов BDD-тестов и Unit-тестов               ║
+╠══════════════════════╦════════════════╦════════════════╦═══════════════╣
+║ Алгоритм             ║ BDD (мс)       ║ Unit (мс)      ║ Совпадение    ║
+╠══════════════════════╬════════════════╬════════════════╬═══════════════╣
+║ CbO (Collections)    ║        0,196   ║        0,165   ║ ДА ✓          ║
+║ CbO (BitSet)         ║        0,188   ║        0,152   ║ ДА ✓          ║
+╚══════════════════════╩════════════════╩════════════════╩═══════════════╝
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРІРѕРґРєР° СЃСЂР°РІРЅРµРЅРёСЏ BDD vs Unit РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                                        &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРІРѕРґРєР°_bdd_vs_unit()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Предварительный эксперимент — определение максимальных границ" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.277">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ СЌРєСЃРїРµСЂРёРјРµРЅС‚ вЂ” РѕРїСЂРµРґРµР»РµРЅРёРµ РјР°РєСЃРёРјР°Р»СЊРЅС‹С… РіСЂР°РЅРёС†      &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:71&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРїРѕРґРіРѕС‚РѕРІР»РµРЅС‹ РґР°С‚Р°СЃРµС‚С‹ РґР»СЏ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°:&amp#27;[0m          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРґРіРѕС‚РѕРІР»РµРЅС‹_РґР°С‚Р°СЃРµС‚С‹_РґР»СЏ_РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РєРѕРґ   | С„Р°Р№Р»                  |
+    | DN-8  | DN-8_8x6_d070.json    |
+    | DN-10 | DN-10_10x8_d070.json  |
+    | DN-12 | DN-12_12x10_d070.json |
+    | DN-14 | DN-14_14x12_d070.json |
+    | DN-16 | DN-16_16x13_d070.json |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ Р·Р°РїСѓСЃРєР°СЋ РѕР±Р° Р°Р»РіРѕСЂРёС‚РјР° СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+
+╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                         ПРЕДВАРИТЕЛЬНЫЙ ЭКСПЕРИМЕНТ — определение максимальных границ                             ║
+╠═══════╦══════╦══════╦═════╦══════════╦════════════╦═════════════════════════╦═════════════════════════╦════════════╣
+║ Код   ║ |G|  ║ |M|  ║ d   ║ Понятий  ║ Имплик.   ║  Collections (мс)      ║  BitSet (мс)            ║ Ускорение  ║
+║       ║      ║      ║     ║          ║           ║ conc.   impl.   total   ║ conc.   impl.   total   ║   k        ║
+╠═══════╬══════╬══════╬═════╬══════════╬════════════╬═════════════════════════╬═════════════════════════╬════════════╣
+║ DN-8  ║    8 ║    6 ║ 0,7 ║       32 ║        28 ║     0,6     3,0     3,6 ║     0,4     1,4     1,8 ║     2,04x  ║
+║ DN-10 ║   10 ║    8 ║ 0,7 ║       39 ║        74 ║     1,2     1,6     2,8 ║     0,3     1,1     1,3 ║     2,10x  ║
+║ DN-12 ║   12 ║   10 ║ 0,7 ║      149 ║       372 ║     1,8     8,2    10,0 ║     1,4     5,6     7,0 ║     1,44x  ║
+║ DN-14 ║   14 ║   12 ║ 0,7 ║      261 ║      1022 ║     3,8    13,9    17,7 ║     1,3    13,4    14,7 ║     1,20x  ║
+║ DN-16 ║   16 ║   13 ║ 0,7 ║      431 ║      1832 ║     3,0    24,1    27,1 ║     1,2    24,6    25,7 ║     1,05x  ║
+╠═══════╩══════╩══════╩═════╩══════════╩════════════╩═════════════════════════╩═════════════════════════╩════════════╣
+║                             Дополнительные метрики                                                                 ║
+╠═══════╦══════════════════╦═══════════════════╗                                                                     ║
+║ Код   ║ Генерация (мс)   ║ Память (МБ)       ║                                                                    ║
+╠═══════╬══════════════════╬═══════════════════╣                                                                     ║
+║ DN-8  ║          0,000   ║            0,62   ║
+║ DN-10 ║          0,000   ║            0,93   ║
+║ DN-12 ║          0,000   ║            3,87   ║
+║ DN-14 ║          0,000   ║            9,56   ║
+║ DN-16 ║          0,000   ║            6,53   ║
+╚═══════╩══════════════════╩═══════════════════╝                                                                     
+
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mС‚Р°Р±Р»РёС†Р° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р° РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.С‚Р°Р±Р»РёС†Р°_РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ()&amp#27;[0m
+┌──────────────────────────────────────────────────────────────────┐
+│ Максимальный протестированный размер: DN-16 (16x13, d=0,7)
+│ Время Collections: 27,1 мс (0,03 сек)
+│ Понятий: 431, Импликаций: 1832
+│ Коэффициент роста между последними двумя: 1,53x
+│ Оценка: ещё ~20 шагов увеличения до порога 2 минуты
+│ Прогнозный «максимальный» размер: ~36x33 @d=0,7
+│ (Для достижения порога t₁ ∈ [2,10] мин. увеличивайте размер)
+└──────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРѕРїСЂРµРґРµР»РµРЅР° РіСЂР°РЅРёС†Р° РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ СЂР°Р·РјРµСЂР°&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РіСЂР°РЅРёС†Р°_РѕРїСЂРµРґРµР»РµРЅР°()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Предварительный эксперимент — определение максимальных границ" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.185">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ СЌРєСЃРїРµСЂРёРјРµРЅС‚ вЂ” РѕРїСЂРµРґРµР»РµРЅРёРµ РјР°РєСЃРёРјР°Р»СЊРЅС‹С… РіСЂР°РЅРёС†      &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:71&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРїРѕРґРіРѕС‚РѕРІР»РµРЅС‹ РґР°С‚Р°СЃРµС‚С‹ РґР»СЏ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°:&amp#27;[0m          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРґРіРѕС‚РѕРІР»РµРЅС‹_РґР°С‚Р°СЃРµС‚С‹_РґР»СЏ_РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РєРѕРґ   | С„Р°Р№Р»                  |
+    | DN-8  | DN-8_8x6_d070.json    |
+    | DN-10 | DN-10_10x8_d070.json  |
+    | DN-12 | DN-12_12x10_d070.json |
+    | DN-14 | DN-14_14x12_d070.json |
+    | DN-16 | DN-16_16x13_d070.json |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ Р·Р°РїСѓСЃРєР°СЋ РѕР±Р° Р°Р»РіРѕСЂРёС‚РјР° СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+
+╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                         ПРЕДВАРИТЕЛЬНЫЙ ЭКСПЕРИМЕНТ — определение максимальных границ                             ║
+╠═══════╦══════╦══════╦═════╦══════════╦════════════╦═════════════════════════╦═════════════════════════╦════════════╣
+║ Код   ║ |G|  ║ |M|  ║ d   ║ Понятий  ║ Имплик.   ║  Collections (мс)      ║  BitSet (мс)            ║ Ускорение  ║
+║       ║      ║      ║     ║          ║           ║ conc.   impl.   total   ║ conc.   impl.   total   ║   k        ║
+╠═══════╬══════╬══════╬═════╬══════════╬════════════╬═════════════════════════╬═════════════════════════╬════════════╣
+║ DN-8  ║    8 ║    6 ║ 0,7 ║       32 ║        28 ║     0,2     0,3     0,5 ║     0,0     0,3     0,3 ║     1,49x  ║
+║ DN-10 ║   10 ║    8 ║ 0,7 ║       39 ║        74 ║     0,3     1,6     1,8 ║     0,1     0,8     0,9 ║     2,02x  ║
+║ DN-12 ║   12 ║   10 ║ 0,7 ║      149 ║       372 ║     1,0     4,1     5,0 ║     0,3     5,3     5,6 ║     0,90x  ║
+║ DN-14 ║   14 ║   12 ║ 0,7 ║      261 ║      1022 ║     2,0     6,8     8,8 ║     0,5     9,4     9,9 ║     0,88x  ║
+║ DN-16 ║   16 ║   13 ║ 0,7 ║      431 ║      1832 ║     2,8    17,2    20,0 ║     0,7    17,9    18,6 ║     1,07x  ║
+╠═══════╩══════╩══════╩═════╩══════════╩════════════╩═════════════════════════╩═════════════════════════╩════════════╣
+║                             Дополнительные метрики                                                                 ║
+╠═══════╦══════════════════╦═══════════════════╗                                                                     ║
+║ Код   ║ Генерация (мс)   ║ Память (МБ)       ║                                                                    ║
+╠═══════╬══════════════════╬═══════════════════╣                                                                     ║
+║ DN-8  ║          0,000   ║            0,38   ║
+║ DN-10 ║          0,000   ║            0,92   ║
+║ DN-12 ║          0,000   ║            3,84   ║
+║ DN-14 ║          0,000   ║            9,54   ║
+║ DN-16 ║          0,000   ║            6,65   ║
+╚═══════╩══════════════════╩═══════════════════╝                                                                     
+
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mС‚Р°Р±Р»РёС†Р° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р° РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.С‚Р°Р±Р»РёС†Р°_РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ()&amp#27;[0m
+┌──────────────────────────────────────────────────────────────────┐
+│ Максимальный протестированный размер: DN-16 (16x13, d=0,7)
+│ Время Collections: 20,0 мс (0,02 сек)
+│ Понятий: 431, Импликаций: 1832
+│ Коэффициент роста между последними двумя: 2,28x
+│ Оценка: ещё ~11 шагов увеличения до порога 2 минуты
+│ Прогнозный «максимальный» размер: ~27x24 @d=0,7
+│ (Для достижения порога t₁ ∈ [2,10] мин. увеличивайте размер)
+└──────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРѕРїСЂРµРґРµР»РµРЅР° РіСЂР°РЅРёС†Р° РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ СЂР°Р·РјРµСЂР°&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РіСЂР°РЅРёС†Р°_РѕРїСЂРµРґРµР»РµРЅР°()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на разреженных контекстах малого размера (SP-S)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.033">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° СЂР°Р·СЂРµР¶РµРЅРЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… РјР°Р»РѕРіРѕ СЂР°Р·РјРµСЂР° (SP-S) &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:84&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: SP-S_10x8_d020.json (10×8)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"SP-S_10x8_d020.json"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 10 × 8, плотность: 13%
+│ Найдено понятий: 8, импликаций: 36
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,142 мс
+│ Collections — импликации:         0,423 мс
+│ Collections — итого:              0,565 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,099 мс
+│ BitSet — импликации:              0,295 мс
+│ BitSet — итого:                   0,394 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              1,43x
+│ Потребление памяти:                0,30 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на разреженных контекстах малого размера (SP-S)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.028">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° СЂР°Р·СЂРµР¶РµРЅРЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… РјР°Р»РѕРіРѕ СЂР°Р·РјРµСЂР° (SP-S) &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:84&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: SP-S_10x8_d020.json (10×8)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"SP-S_10x8_d020.json"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 10 × 8, плотность: 13%
+│ Найдено понятий: 8, импликаций: 36
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,102 мс
+│ Collections — импликации:         0,418 мс
+│ Collections — итого:              0,520 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,106 мс
+│ BitSet — импликации:              0,131 мс
+│ BitSet — итого:                   0,237 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              2,19x
+│ Потребление памяти:                0,29 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на разреженных контекстах большого размера (SP-L)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.033">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° СЂР°Р·СЂРµР¶РµРЅРЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… Р±РѕР»СЊС€РѕРіРѕ СЂР°Р·РјРµСЂР° (SP-L) &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:92&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: SP-L_18x14_d020.json (18×14)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"SP-L_18x14_d020.json"&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 18 × 14, плотность: 15%
+│ Найдено понятий: 27, импликаций: 242
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,559 мс
+│ Collections — импликации:         1,841 мс
+│ Collections — итого:              2,399 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,123 мс
+│ BitSet — импликации:              0,987 мс
+│ BitSet — итого:                   1,110 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              2,16x
+│ Потребление памяти:                2,30 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на разреженных контекстах большого размера (SP-L)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.028">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° СЂР°Р·СЂРµР¶РµРЅРЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… Р±РѕР»СЊС€РѕРіРѕ СЂР°Р·РјРµСЂР° (SP-L) &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:92&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: SP-L_18x14_d020.json (18×14)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"SP-L_18x14_d020.json"&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 18 × 14, плотность: 15%
+│ Найдено понятий: 27, импликаций: 242
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,257 мс
+│ Collections — импликации:         0,883 мс
+│ Collections — итого:              1,140 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,106 мс
+│ BitSet — импликации:              1,052 мс
+│ BitSet — итого:                   1,158 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              0,98x
+│ Потребление памяти:                2,29 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на плотных контекстах малого размера (DN-S)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.036">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° РїР»РѕС‚РЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… РјР°Р»РѕРіРѕ СЂР°Р·РјРµСЂР° (DN-S)     &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:100&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: DN-S_8x6_d070.json (8×6)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"DN-S_8x6_d070.json"&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 8 × 6, плотность: 69%
+│ Найдено понятий: 32, импликаций: 28
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,259 мс
+│ Collections — импликации:         0,369 мс
+│ Collections — итого:              0,628 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,073 мс
+│ BitSet — импликации:              0,225 мс
+│ BitSet — итого:                   0,298 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              2,11x
+│ Потребление памяти:                0,59 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на плотных контекстах малого размера (DN-S)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.026">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° РїР»РѕС‚РЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… РјР°Р»РѕРіРѕ СЂР°Р·РјРµСЂР° (DN-S)     &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:100&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: DN-S_8x6_d070.json (8×6)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"DN-S_8x6_d070.json"&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 8 × 6, плотность: 69%
+│ Найдено понятий: 32, импликаций: 28
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            0,118 мс
+│ Collections — импликации:         0,162 мс
+│ Collections — итого:              0,281 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,058 мс
+│ BitSet — импликации:              0,125 мс
+│ BitSet — итого:                   0,183 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              1,53x
+│ Потребление памяти:                0,58 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на плотных контекстах большого размера (DN-L)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.048">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° РїР»РѕС‚РЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… Р±РѕР»СЊС€РѕРіРѕ СЂР°Р·РјРµСЂР° (DN-L)           &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:108&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: DN-L_14x12_d070.json (14×12)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"DN-L_14x12_d070.json"&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m         &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                        &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                         &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 14 × 12, плотность: 69%
+│ Найдено понятий: 261, импликаций: 1022
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            2,125 мс
+│ Collections — импликации:         7,811 мс
+│ Collections — итого:              9,937 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,512 мс
+│ BitSet — импликации:              7,243 мс
+│ BitSet — итого:                   7,755 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              1,28x
+│ Потребление памяти:                9,47 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mBitSet-СЂРµР°Р»РёР·Р°С†РёСЏ СЂР°Р±РѕС‚Р°РµС‚ РЅРµ РјРµРґР»РµРЅРЅРµРµ Collections-СЂРµР°Р»РёР·Р°С†РёРё РЅР° Р±РѕР»СЊС€РёС… РґР°РЅРЅС‹С…&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.bitset_РЅРµ_РјРµРґР»РµРЅРЅРµРµ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Производительность на плотных контекстах большого размера (DN-L)" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.043">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР° РїР»РѕС‚РЅС‹С… РєРѕРЅС‚РµРєСЃС‚Р°С… Р±РѕР»СЊС€РѕРіРѕ СЂР°Р·РјРµСЂР° (DN-L)           &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:108&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+[ДАТАСЕТ] Загружен: DN-L_14x12_d070.json (14×12)
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РіСЂСѓР¶РµРЅ РґР°С‚Р°СЃРµС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"DN-L_14x12_d070.json"&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РіСЂСѓР¶РµРЅ_РґР°С‚Р°СЃРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ СЃСЂР°РІРЅРµРЅРёРµ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃ РґРµС‚Р°Р»СЊРЅС‹Рј РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј&amp#27;[0m         &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.Р·Р°РїСѓСЃРєР°СЋ_СЃСЂР°РІРЅРµРЅРёРµ_СЃ_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРµРј()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                        &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРјРЅРѕР¶РµСЃС‚РІР° РЅР°Р№РґРµРЅРЅС‹С… РёРјРїР»РёРєР°С†РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m                                         &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РёРјРїР»РёРєР°С†РёРё_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+┌───────────────────────────────────────────────────────────────────┐
+│ Контекст: 14 × 12, плотность: 69%
+│ Найдено понятий: 261, импликаций: 1022
+├───────────────────────────────────────────────────────────────────┤
+│ Генерация данных:                 0,000 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Collections — понятия:            1,659 мс
+│ Collections — импликации:         6,270 мс
+│ Collections — итого:              7,929 мс
+├───────────────────────────────────────────────────────────────────┤
+│ BitSet — понятия:                 0,620 мс
+│ BitSet — импликации:              6,417 мс
+│ BitSet — итого:                   7,037 мс
+├───────────────────────────────────────────────────────────────────┤
+│ Ускорение BitSet (k):              1,13x
+│ Потребление памяти:                9,46 МБ
+│ Понятия совпадают:         ДА ✓        
+│ Импликации совпадают:      ДА ✓        
+└───────────────────────────────────────────────────────────────────┘
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРґРµС‚Р°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ РІС‹РІРµРґРµРЅ РІ Р»РѕРі&amp#27;[0m                                                  &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґРµС‚Р°Р»СЊРЅС‹Р№_РїСЂРѕС„РёР»СЊ_РІС‹РІРµРґРµРЅ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mBitSet-СЂРµР°Р»РёР·Р°С†РёСЏ СЂР°Р±РѕС‚Р°РµС‚ РЅРµ РјРµРґР»РµРЅРЅРµРµ Collections-СЂРµР°Р»РёР·Р°С†РёРё РЅР° Р±РѕР»СЊС€РёС… РґР°РЅРЅС‹С…&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.bitset_РЅРµ_РјРµРґР»РµРЅРЅРµРµ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сводный профиль производительности при увеличении нагрузки" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.039">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РЎРІРѕРґРЅС‹Р№ РїСЂРѕС„РёР»СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё РїСЂРё СѓРІРµР»РёС‡РµРЅРёРё РЅР°РіСЂСѓР·РєРё &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:117&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРїРѕРґРіРѕС‚РѕРІР»РµРЅС‹ РґР°С‚Р°СЃРµС‚С‹ РІРѕР·СЂР°СЃС‚Р°СЋС‰РµРіРѕ СЂР°Р·РјРµСЂР°:&amp#27;[0m              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРґРіРѕС‚РѕРІР»РµРЅС‹_РґР°С‚Р°СЃРµС‚С‹_РІРѕР·СЂР°СЃС‚Р°СЋС‰РµРіРѕ(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | С„Р°Р№Р»                  |
+    | MD-6_6x5_d050.json    |
+    | MD-10_10x8_d050.json  |
+    | MD-14_14x10_d050.json |
+    | MD-16_16x12_d050.json |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ Р·Р°РїСѓСЃРєР°СЋ РѕР±Р° Р°Р»РіРѕСЂРёС‚РјР° РЅР° РєР°Р¶РґРѕРј РєРѕРЅС‚РµРєСЃС‚Рµ&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ_Р·Р°РїСѓСЃРєР°СЋ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРґР»СЏ РєР°Р¶РґРѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р° РјРЅРѕР¶РµСЃС‚РІР° РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґР»СЏ_РєР°Р¶РґРѕРіРѕ_РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║              Результаты профилирования производительности CbO                      ║
+╠══════╦══════╦═════════╦══════════╦════════════╦══════════════╦═══════════╦══════════╣
+║ Obj  ║ Attr ║ Density ║ Concepts ║ Implic.   ║ Collect.(мс) ║ BitS.(мс) ║ Speedup ║
+╠══════╬══════╬═════════╬══════════╬════════════╬══════════════╬═══════════╬══════════╣
+║    6 ║    5 ║  0,4    ║       10 ║         16 ║        0,153 ║     0,048 ║    3,20x ║
+║   10 ║    8 ║  0,5    ║       42 ║        110 ║        0,204 ║     0,080 ║    2,56x ║
+║   14 ║   10 ║  0,5    ║       73 ║        288 ║        0,372 ║     0,163 ║    2,29x ║
+║   16 ║   12 ║  0,5    ║      115 ║        613 ║        3,306 ║     0,302 ║   10,95x ║
+╚══════╩══════╩═════════╩══════════╩════════════╩══════════════╩═══════════╩══════════╝
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mС‚Р°Р±Р»РёС†Р° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёСЏ РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.С‚Р°Р±Р»РёС†Р°_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сводный профиль производительности при увеличении нагрузки" classname="Нагрузочные тесты на сгенерированных данных разного размера и плотности" time="0.026">
+    <system-out><![CDATA[
+@РЅР°РіСЂСѓР·РѕС‡РЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РЎРІРѕРґРЅС‹Р№ РїСЂРѕС„РёР»СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё РїСЂРё СѓРІРµР»РёС‡РµРЅРёРё РЅР°РіСЂСѓР·РєРё &amp#27;[90m# src/test/resources/features/algorithm_comparison.feature:117&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° СЃСЂР°РІРЅРµРЅРёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m             &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРїРѕРґРіРѕС‚РѕРІР»РµРЅС‹ РґР°С‚Р°СЃРµС‚С‹ РІРѕР·СЂР°СЃС‚Р°СЋС‰РµРіРѕ СЂР°Р·РјРµСЂР°:&amp#27;[0m              &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕРґРіРѕС‚РѕРІР»РµРЅС‹_РґР°С‚Р°СЃРµС‚С‹_РІРѕР·СЂР°СЃС‚Р°СЋС‰РµРіРѕ(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | С„Р°Р№Р»                  |
+    | MD-6_6x5_d050.json    |
+    | MD-10_10x8_d050.json  |
+    | MD-14_14x10_d050.json |
+    | MD-16_16x12_d050.json |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ Р·Р°РїСѓСЃРєР°СЋ РѕР±Р° Р°Р»РіРѕСЂРёС‚РјР° РЅР° РєР°Р¶РґРѕРј РєРѕРЅС‚РµРєСЃС‚Рµ&amp#27;[0m &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ_Р·Р°РїСѓСЃРєР°СЋ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРґР»СЏ РєР°Р¶РґРѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р° РјРЅРѕР¶РµСЃС‚РІР° РїРѕРЅСЏС‚РёР№ СЃРѕРІРїР°РґР°СЋС‚&amp#27;[0m            &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.РґР»СЏ_РєР°Р¶РґРѕРіРѕ_РїРѕРЅСЏС‚РёСЏ_СЃРѕРІРїР°РґР°СЋС‚()&amp#27;[0m
+
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║              Результаты профилирования производительности CbO                      ║
+╠══════╦══════╦═════════╦══════════╦════════════╦══════════════╦═══════════╦══════════╣
+║ Obj  ║ Attr ║ Density ║ Concepts ║ Implic.   ║ Collect.(мс) ║ BitS.(мс) ║ Speedup ║
+╠══════╬══════╬═════════╬══════════╬════════════╬══════════════╬═══════════╬══════════╣
+║    6 ║    5 ║  0,4    ║       10 ║         16 ║        0,079 ║     0,028 ║    2,78x ║
+║   10 ║    8 ║  0,5    ║       42 ║        110 ║        0,145 ║     0,075 ║    1,92x ║
+║   14 ║   10 ║  0,5    ║       73 ║        288 ║        0,365 ║     0,141 ║    2,58x ║
+║   16 ║   12 ║  0,5    ║      115 ║        613 ║        0,648 ║     0,550 ║    1,18x ║
+╚══════╩══════╩═════════╩══════════╩════════════╩══════════════╩═══════════╩══════════╝
+
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mС‚Р°Р±Р»РёС†Р° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёСЏ РІС‹РІРµРґРµРЅР° РІ Р»РѕРі&amp#27;[0m                &amp#27;[90m# com.fca.bdd.AlgorithmComparisonSteps.С‚Р°Р±Р»РёС†Р°_РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Примеры" time="0.015">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:21&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РґРёР°РіРѕРЅР°Р»СЊРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Примеры" time="0.005">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:21&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РґРёР°РіРѕРЅР°Р»СЊРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Примеры" time="0.007">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:22&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РїРѕР»РЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Примеры" time="0.004">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:22&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РїРѕР»РЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Примеры" time="0.007">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:23&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"СЂР°Р·СЂРµР¶РµРЅРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m  &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Примеры" time="0.004">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:23&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"СЂР°Р·СЂРµР¶РµРЅРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m  &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.4" classname="Примеры" time="0.007">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:24&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РґРёР°РіРѕРЅР°Р»СЊРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.4" classname="Примеры" time="0.003">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:24&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РґРёР°РіРѕРЅР°Р»СЊРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.5" classname="Примеры" time="0.008">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:25&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РїРѕР»РЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.5" classname="Примеры" time="0.003">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:25&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"РїРѕР»РЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.6" classname="Примеры" time="0.006">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:26&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"СЂР°Р·СЂРµР¶РµРЅРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m  &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.6" classname="Примеры" time="0.004">
+    <system-out><![CDATA[
+РЎС‚СЂСѓРєС‚СѓСЂР° СЃС†РµРЅР°СЂРёСЏ: Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕРЅСЏС‚РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚РѕРІ СЂР°Р·Р»РёС‡РЅРѕРіРѕ С‚РёРїР° &amp#27;[90m# src/test/resources/features/concept_computation.feature:26&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ С‚РёРїР° &amp#27;[0m&amp#27;[32m&amp#27;[1m"СЂР°Р·СЂРµР¶РµРЅРЅС‹Р№"&amp#27;[0m&amp#27;[32m СЂР°Р·РјРµСЂРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m  &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_С‚РёРїР°(java.lang.String,int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ РЅРµ РјРµРЅРµРµ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_РЅРµ_РјРµРЅРµРµ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґРѕРµ РїРѕРЅСЏС‚РёРµ СѓРґРѕРІР»РµС‚РІРѕСЂСЏРµС‚ СЃРІРѕР№СЃС‚РІСѓ Р·Р°РјРєРЅСѓС‚РѕСЃС‚Рё&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РїРѕРЅСЏС‚РёСЏ_Р·Р°РјРєРЅСѓС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Контекст без атрибутов даёт ровно одно понятие" classname="Алгоритм CbO находит все формальные понятия" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РљРѕРЅС‚РµРєСЃС‚ Р±РµР· Р°С‚СЂРёР±СѓС‚РѕРІ РґР°С‘С‚ СЂРѕРІРЅРѕ РѕРґРЅРѕ РїРѕРЅСЏС‚РёРµ       &amp#27;[90m# src/test/resources/features/concept_computation.feature:28&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РєРѕРЅС‚РµРєСЃС‚ СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_Р±РµР·_Р°С‚СЂРёР±СѓС‚РѕРІ(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ СЂРѕРІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅРѕРµ РїРѕРЅСЏС‚РёРµ&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_СЂРѕРІРЅРѕ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЌРєСЃС‚РµРЅС‚ РµРґРёРЅСЃС‚РІРµРЅРЅРѕРіРѕ РїРѕРЅСЏС‚РёСЏ СЃРѕРґРµСЂР¶РёС‚ РІСЃРµ РѕР±СЉРµРєС‚С‹&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЌРєСЃС‚РµРЅС‚_СЃРѕРґРµСЂР¶РёС‚_РІСЃРµ_РѕР±СЉРµРєС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Контекст без атрибутов даёт ровно одно понятие" classname="Алгоритм CbO находит все формальные понятия" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РљРѕРЅС‚РµРєСЃС‚ Р±РµР· Р°С‚СЂРёР±СѓС‚РѕРІ РґР°С‘С‚ СЂРѕРІРЅРѕ РѕРґРЅРѕ РїРѕРЅСЏС‚РёРµ       &amp#27;[90m# src/test/resources/features/concept_computation.feature:28&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РєРѕРЅС‚РµРєСЃС‚ СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_Р±РµР·_Р°С‚СЂРёР±СѓС‚РѕРІ(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ СЂРѕРІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅРѕРµ РїРѕРЅСЏС‚РёРµ&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_СЂРѕРІРЅРѕ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЌРєСЃС‚РµРЅС‚ РµРґРёРЅСЃС‚РІРµРЅРЅРѕРіРѕ РїРѕРЅСЏС‚РёСЏ СЃРѕРґРµСЂР¶РёС‚ РІСЃРµ РѕР±СЉРµРєС‚С‹&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЌРєСЃС‚РµРЅС‚_СЃРѕРґРµСЂР¶РёС‚_РІСЃРµ_РѕР±СЉРµРєС‚С‹()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Контекст 1x1 с истинным отношением" classname="Алгоритм CbO находит все формальные понятия" time="0.01">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РљРѕРЅС‚РµРєСЃС‚ 1x1 СЃ РёСЃС‚РёРЅРЅС‹Рј РѕС‚РЅРѕС€РµРЅРёРµРј                           &amp#27;[90m# src/test/resources/features/concept_computation.feature:34&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РєРѕРЅС‚РµРєСЃС‚ СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРј Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРј СЃ РѕС‚РЅРѕС€РµРЅРёРµРј true&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_1x1_true(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ СЂРѕРІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅРѕРµ РїРѕРЅСЏС‚РёРµ&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_СЂРѕРІРЅРѕ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Контекст 1x1 с истинным отношением" classname="Алгоритм CbO находит все формальные понятия" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РљРѕРЅС‚РµРєСЃС‚ 1x1 СЃ РёСЃС‚РёРЅРЅС‹Рј РѕС‚РЅРѕС€РµРЅРёРµРј                           &amp#27;[90m# src/test/resources/features/concept_computation.feature:34&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃРёСЃС‚РµРјР° Р°РЅР°Р»РёР·Р° С„РѕСЂРјР°Р»СЊРЅС‹С… РїРѕРЅСЏС‚РёР№ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.СЃРёСЃС‚РµРјР°_РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РєРѕРЅС‚РµРєСЃС‚ СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРј Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРј СЃ РѕС‚РЅРѕС€РµРЅРёРµРј true&amp#27;[0m &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_1x1_true(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїСѓСЃРєР°СЋ Р°Р»РіРѕСЂРёС‚Рј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.Р·Р°РїСѓСЃРєР°СЋ_Р°Р»РіРѕСЂРёС‚Рј(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРЅР°Р№РґРµРЅРѕ СЂРѕРІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m С„РѕСЂРјР°Р»СЊРЅРѕРµ РїРѕРЅСЏС‚РёРµ&amp#27;[0m                             &amp#27;[90m# com.fca.bdd.ConceptComputationSteps.РЅР°Р№РґРµРЅРѕ_СЂРѕРІРЅРѕ_РїРѕРЅСЏС‚РёР№(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Загрузка корректного контекста из JSON-строки" classname="Корректный JSON успешно загружается в формальный контекст" time="0.012">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РіСЂСѓР·РєР° РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р° РёР· JSON-СЃС‚СЂРѕРєРё &amp#27;[90m# src/test/resources/features/data_loading.feature:13&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m             &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РіСЂСѓР¶Р°СЋ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m         &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РіСЂСѓР¶Р°СЋ_РєРѕРЅС‚РµРєСЃС‚_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m                    &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m РѕР±Р»Р°РґР°РµС‚ Р°С‚СЂРёР±СѓС‚РѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m     &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РѕР±СЉРµРєС‚_РѕР±Р»Р°РґР°РµС‚_Р°С‚СЂРёР±СѓС‚РѕРј(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРќРѕ &amp#27;[0m&amp#27;[32mРѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m РЅРµ РѕР±Р»Р°РґР°РµС‚ Р°С‚СЂРёР±СѓС‚РѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m        &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РѕР±СЉРµРєС‚_РЅРµ_РѕР±Р»Р°РґР°РµС‚_Р°С‚СЂРёР±СѓС‚РѕРј(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Загрузка корректного контекста из JSON-строки" classname="Корректный JSON успешно загружается в формальный контекст" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РіСЂСѓР·РєР° РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р° РёР· JSON-СЃС‚СЂРѕРєРё &amp#27;[90m# src/test/resources/features/data_loading.feature:13&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m             &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                         &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РіСЂСѓР¶Р°СЋ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m         &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РіСЂСѓР¶Р°СЋ_РєРѕРЅС‚РµРєСЃС‚_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m                    &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m РѕР±Р»Р°РґР°РµС‚ Р°С‚СЂРёР±СѓС‚РѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m     &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РѕР±СЉРµРєС‚_РѕР±Р»Р°РґР°РµС‚_Р°С‚СЂРёР±СѓС‚РѕРј(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРќРѕ &amp#27;[0m&amp#27;[32mРѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m РЅРµ РѕР±Р»Р°РґР°РµС‚ Р°С‚СЂРёР±СѓС‚РѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m        &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РѕР±СЉРµРєС‚_РЅРµ_РѕР±Р»Р°РґР°РµС‚_Р°С‚СЂРёР±СѓС‚РѕРј(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Загрузка контекста из файла ресурсов" classname="Корректный JSON успешно загружается в формальный контекст" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РіСЂСѓР·РєР° РєРѕРЅС‚РµРєСЃС‚Р° РёР· С„Р°Р№Р»Р° СЂРµСЃСѓСЂСЃРѕРІ             &amp#27;[90m# src/test/resources/features/data_loading.feature:32&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РіСЂСѓР¶Р°СЋ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РіСЂСѓР¶Р°СЋ_РєРѕРЅС‚РµРєСЃС‚_РёР·_С„Р°Р№Р»Р°(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                          &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Загрузка контекста из файла ресурсов" classname="Корректный JSON успешно загружается в формальный контекст" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РіСЂСѓР·РєР° РєРѕРЅС‚РµРєСЃС‚Р° РёР· С„Р°Р№Р»Р° СЂРµСЃСѓСЂСЃРѕРІ             &amp#27;[90m# src/test/resources/features/data_loading.feature:32&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РіСЂСѓР¶Р°СЋ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"sample-context.json"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РіСЂСѓР¶Р°СЋ_РєРѕРЅС‚РµРєСЃС‚_РёР·_С„Р°Р№Р»Р°(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєРѕРЅС‚РµРєСЃС‚ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                          &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РєРѕРЅС‚РµРєСЃС‚_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки JSON без обязательных полей" classname="Некорректные данные приводят к ошибке валидации" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё JSON Р±РµР· РѕР±СЏР·Р°С‚РµР»СЊРЅС‹С… РїРѕР»РµР№     &amp#27;[90m# src/test/resources/features/data_loading.feature:39&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m   &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РїР°СЂСЃРёРЅРіР° СЃ СЃРѕРѕР±С‰РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"incidence"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_РїР°СЂСЃРёРЅРіР°(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки JSON без обязательных полей" classname="Некорректные данные приводят к ошибке валидации" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё JSON Р±РµР· РѕР±СЏР·Р°С‚РµР»СЊРЅС‹С… РїРѕР»РµР№     &amp#27;[90m# src/test/resources/features/data_loading.feature:39&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m   &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РїР°СЂСЃРёРЅРіР° СЃ СЃРѕРѕР±С‰РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"incidence"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_РїР°СЂСЃРёРЅРіР°(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки JSON с несовпадением размерностей" classname="Некорректные данные приводят к ошибке валидации" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё JSON СЃ РЅРµСЃРѕРІРїР°РґРµРЅРёРµРј СЂР°Р·РјРµСЂРЅРѕСЃС‚РµР№  &amp#27;[90m# src/test/resources/features/data_loading.feature:50&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                   &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m      &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РїР°СЂСЃРёРЅРіР° СЃ СЃРѕРѕР±С‰РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅРµ СЃРѕРІРїР°РґР°РµС‚"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_РїР°СЂСЃРёРЅРіР°(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки JSON с несовпадением размерностей" classname="Некорректные данные приводят к ошибке валидации" time="0.003">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё JSON СЃ РЅРµСЃРѕРІРїР°РґРµРЅРёРµРј СЂР°Р·РјРµСЂРЅРѕСЃС‚РµР№  &amp#27;[90m# src/test/resources/features/data_loading.feature:50&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                   &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ JSON-РєРѕРЅС‚РµРєСЃС‚:&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.DataLoadingSteps.Р·Р°РґР°РЅ_json_РєРѕРЅС‚РµРєСЃС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· СЌС‚РѕР№ JSON-СЃС‚СЂРѕРєРё&amp#27;[0m      &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_json_СЃС‚СЂРѕРєРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РїР°СЂСЃРёРЅРіР° СЃ СЃРѕРѕР±С‰РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅРµ СЃРѕРІРїР°РґР°РµС‚"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_РїР°СЂСЃРёРЅРіР°(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки из несуществующего файла" classname="Некорректные данные приводят к ошибке валидации" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё РёР· РЅРµСЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРіРѕ С„Р°Р№Р»Р°              &amp#27;[90m# src/test/resources/features/data_loading.feature:62&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"nonexistent.json"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_С„Р°Р№Р»Р°(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РІРІРѕРґР°-РІС‹РІРѕРґР°&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_io()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Попытка загрузки из несуществующего файла" classname="Некорректные данные приводят к ошибке валидации" time="0.004">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕРїС‹С‚РєР° Р·Р°РіСЂСѓР·РєРё РёР· РЅРµСЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРіРѕ С„Р°Р№Р»Р°              &amp#27;[90m# src/test/resources/features/data_loading.feature:62&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ Р·Р°РіСЂСѓР·С‡РёРє JSON-РґР°РЅРЅС‹С…&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.DataLoadingSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_Р·Р°РіСЂСѓР·С‡РёРє()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РїС‹С‚Р°СЋСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РёР· С„Р°Р№Р»Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"nonexistent.json"&amp#27;[0m &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РїС‹С‚Р°СЋСЃСЊ_Р·Р°РіСЂСѓР·РёС‚СЊ_РёР·_С„Р°Р№Р»Р°(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІРѕР·РЅРёРєР°РµС‚ РѕС€РёР±РєР° РІРІРѕРґР°-РІС‹РІРѕРґР°&amp#27;[0m                            &amp#27;[90m# com.fca.bdd.DataLoadingSteps.РІРѕР·РЅРёРєР°РµС‚_РѕС€РёР±РєР°_io()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пошаговое вычисление экстента для множества атрибутов (императивный стиль)" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.007">
+    <system-out><![CDATA[
+@РёРјРїРµСЂР°С‚РёРІРЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџРѕС€Р°РіРѕРІРѕРµ РІС‹С‡РёСЃР»РµРЅРёРµ СЌРєСЃС‚РµРЅС‚Р° РґР»СЏ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ (РёРјРїРµСЂР°С‚РёРІРЅС‹Р№ СЃС‚РёР»СЊ) &amp#27;[90m# src/test/resources/features/formal_context.feature:20&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЏ СЃРѕР·РґР°СЋ РїСѓСЃС‚РѕРµ РјРЅРѕР¶РµСЃС‚РІРѕ Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                                       &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЃРѕР·РґР°СЋ_РїСѓСЃС‚РѕРµ_РјРЅРѕР¶РµСЃС‚РІРѕ_Р°С‚СЂРёР±СѓС‚РѕРІ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РґРѕР±Р°РІР»СЏСЋ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m&amp#27;[32m РІ РјРЅРѕР¶РµСЃС‚РІРѕ&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.FormalContextSteps.РґРѕР±Р°РІР»СЏСЋ_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РґРѕР±Р°РІР»СЏСЋ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"С…РёС‰РЅРёРє"&amp#27;[0m&amp#27;[32m РІ РјРЅРѕР¶РµСЃС‚РІРѕ&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.FormalContextSteps.РґРѕР±Р°РІР»СЏСЋ_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹Р·С‹РІР°СЋ РѕРїРµСЂР°С†РёСЋ computeExtent РґР»СЏ СЌС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m               &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_СЌРєСЃС‚РµРЅС‚()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                                                     &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m                                                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРќРѕ &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ РЅРµ СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р”РµР»СЊС„РёРЅ"&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_РЅРµ_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пошаговое вычисление экстента для множества атрибутов (императивный стиль)" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.005">
+    <system-out><![CDATA[
+@РёРјРїРµСЂР°С‚РёРІРЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: РџРѕС€Р°РіРѕРІРѕРµ РІС‹С‡РёСЃР»РµРЅРёРµ СЌРєСЃС‚РµРЅС‚Р° РґР»СЏ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ (РёРјРїРµСЂР°С‚РёРІРЅС‹Р№ СЃС‚РёР»СЊ) &amp#27;[90m# src/test/resources/features/formal_context.feature:20&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m                       &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЏ СЃРѕР·РґР°СЋ РїСѓСЃС‚РѕРµ РјРЅРѕР¶РµСЃС‚РІРѕ Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m                                       &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЃРѕР·РґР°СЋ_РїСѓСЃС‚РѕРµ_РјРЅРѕР¶РµСЃС‚РІРѕ_Р°С‚СЂРёР±СѓС‚РѕРІ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РґРѕР±Р°РІР»СЏСЋ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m&amp#27;[32m РІ РјРЅРѕР¶РµСЃС‚РІРѕ&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.FormalContextSteps.РґРѕР±Р°РІР»СЏСЋ_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РґРѕР±Р°РІР»СЏСЋ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"С…РёС‰РЅРёРє"&amp#27;[0m&amp#27;[32m РІ РјРЅРѕР¶РµСЃС‚РІРѕ&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.FormalContextSteps.РґРѕР±Р°РІР»СЏСЋ_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹Р·С‹РІР°СЋ РѕРїРµСЂР°С†РёСЋ computeExtent РґР»СЏ СЌС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m               &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_СЌРєСЃС‚РµРЅС‚()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                                                     &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m                                                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРќРѕ &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚ РЅРµ СЃРѕРґРµСЂР¶РёС‚ РѕР±СЉРµРєС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р”РµР»СЊС„РёРЅ"&amp#27;[0m                                          &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_РЅРµ_СЃРѕРґРµСЂР¶РёС‚_РѕР±СЉРµРєС‚(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Вычисление интента для множества объектов (декларативный стиль)" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.007">
+    <system-out><![CDATA[
+@РґРµРєР»Р°СЂР°С‚РёРІРЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: Р’С‹С‡РёСЃР»РµРЅРёРµ РёРЅС‚РµРЅС‚Р° РґР»СЏ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ (РґРµРєР»Р°СЂР°С‚РёРІРЅС‹Р№ СЃС‚РёР»СЊ) &amp#27;[90m# src/test/resources/features/formal_context.feature:30&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m            &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РѕР±С‰РёРµ Р°С‚СЂРёР±СѓС‚С‹ РѕР±СЉРµРєС‚РѕРІ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р”РµР»СЊС„РёРЅ"&amp#27;[0m              &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_РѕР±С‰РёРµ_Р°С‚СЂРёР±СѓС‚С‹(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРѕР±С‰РёРµ Р°С‚СЂРёР±СѓС‚С‹ вЂ” СЌС‚Рѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ"&amp#27;[0m             &amp#27;[90m# com.fca.bdd.FormalContextSteps.РѕР±С‰РёРµ_Р°С‚СЂРёР±СѓС‚С‹_СЌС‚Рѕ(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Вычисление интента для множества объектов (декларативный стиль)" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.003">
+    <system-out><![CDATA[
+@РґРµРєР»Р°СЂР°С‚РёРІРЅС‹Р№
+РЎС†РµРЅР°СЂРёР№: Р’С‹С‡РёСЃР»РµРЅРёРµ РёРЅС‚РµРЅС‚Р° РґР»СЏ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ (РґРµРєР»Р°СЂР°С‚РёРІРЅС‹Р№ СЃС‚РёР»СЊ) &amp#27;[90m# src/test/resources/features/formal_context.feature:30&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m            &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РѕР±С‰РёРµ Р°С‚СЂРёР±СѓС‚С‹ РѕР±СЉРµРєС‚РѕРІ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р›РµРІ"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р”РµР»СЊС„РёРЅ"&amp#27;[0m              &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_РѕР±С‰РёРµ_Р°С‚СЂРёР±СѓС‚С‹(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРѕР±С‰РёРµ Р°С‚СЂРёР±СѓС‚С‹ вЂ” СЌС‚Рѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m"РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ"&amp#27;[0m             &amp#27;[90m# com.fca.bdd.FormalContextSteps.РѕР±С‰РёРµ_Р°С‚СЂРёР±СѓС‚С‹_СЌС‚Рѕ(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Вычисление замыкания множества атрибутов" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р’С‹С‡РёСЃР»РµРЅРёРµ Р·Р°РјС‹РєР°РЅРёСЏ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ             &amp#27;[90m# src/test/resources/features/formal_context.feature:34&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ Р·Р°РјС‹РєР°РЅРёРµ РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m             &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_Р·Р°РјС‹РєР°РЅРёРµ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mР·Р°РјС‹РєР°РЅРёРµ СЃРѕРґРµСЂР¶РёС‚ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ"&amp#27;[0m              &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РјС‹РєР°РЅРёРµ_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РјС‹РєР°РЅРёРµ СЃРѕРґРµСЂР¶РёС‚ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РјС‹РєР°РЅРёРµ_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Вычисление замыкания множества атрибутов" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.004">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р’С‹С‡РёСЃР»РµРЅРёРµ Р·Р°РјС‹РєР°РЅРёСЏ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ             &amp#27;[90m# src/test/resources/features/formal_context.feature:34&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ Р·Р°РјС‹РєР°РЅРёРµ РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m             &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_Р·Р°РјС‹РєР°РЅРёРµ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mР·Р°РјС‹РєР°РЅРёРµ СЃРѕРґРµСЂР¶РёС‚ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ"&amp#27;[0m              &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РјС‹РєР°РЅРёРµ_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РјС‹РєР°РЅРёРµ СЃРѕРґРµСЂР¶РёС‚ Р°С‚СЂРёР±СѓС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m"Р»РµС‚Р°РµС‚"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РјС‹РєР°РЅРёРµ_СЃРѕРґРµСЂР¶РёС‚_Р°С‚СЂРёР±СѓС‚(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Экстент для пустого множества атрибутов — все объекты" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.007">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р­РєСЃС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ вЂ” РІСЃРµ РѕР±СЉРµРєС‚С‹ &amp#27;[90m# src/test/resources/features/formal_context.feature:39&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ СЌРєСЃС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m      &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_СЌРєСЃС‚РµРЅС‚_РїСѓСЃС‚РѕРіРѕ_РјРЅРѕР¶РµСЃС‚РІР°()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚-РѕР±СЉРµРєС‚С‹ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_n_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Экстент для пустого множества атрибутов — все объекты" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.004">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р­РєСЃС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ вЂ” РІСЃРµ РѕР±СЉРµРєС‚С‹ &amp#27;[90m# src/test/resources/features/formal_context.feature:39&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ СЌРєСЃС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° Р°С‚СЂРёР±СѓС‚РѕРІ&amp#27;[0m      &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_СЌРєСЃС‚РµРЅС‚_РїСѓСЃС‚РѕРіРѕ_РјРЅРѕР¶РµСЃС‚РІР°()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚-РѕР±СЉРµРєС‚С‹ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_n_РѕР±СЉРµРєС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Интент для пустого множества объектов — все атрибуты" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.008">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р�РЅС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ вЂ” РІСЃРµ Р°С‚СЂРёР±СѓС‚С‹ &amp#27;[90m# src/test/resources/features/formal_context.feature:43&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РёРЅС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m       &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_РёРЅС‚РµРЅС‚_РїСѓСЃС‚РѕРіРѕ_РјРЅРѕР¶РµСЃС‚РІР°()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚-Р°С‚СЂРёР±СѓС‚С‹ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_n_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Интент для пустого множества объектов — все атрибуты" classname="Штрих-оператор корректно вычисляет экстент и интент" time="0.004">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р�РЅС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ вЂ” РІСЃРµ Р°С‚СЂРёР±СѓС‚С‹ &amp#27;[90m# src/test/resources/features/formal_context.feature:43&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РёРЅС‚РµРЅС‚ РґР»СЏ РїСѓСЃС‚РѕРіРѕ РјРЅРѕР¶РµСЃС‚РІР° РѕР±СЉРµРєС‚РѕРІ&amp#27;[0m       &amp#27;[90m# com.fca.bdd.FormalContextSteps.РІС‹С‡РёСЃР»СЏСЋ_РёРЅС‚РµРЅС‚_РїСѓСЃС‚РѕРіРѕ_РјРЅРѕР¶РµСЃС‚РІР°()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mСЂРµР·СѓР»СЊС‚Р°С‚-Р°С‚СЂРёР±СѓС‚С‹ СЃРѕРґРµСЂР¶РёС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m СЌР»РµРјРµРЅС‚РѕРІ&amp#27;[0m                &amp#27;[90m# com.fca.bdd.FormalContextSteps.СЂРµР·СѓР»СЊС‚Р°С‚_СЃРѕРґРµСЂР¶РёС‚_n_Р°С‚СЂРёР±СѓС‚РѕРІ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Генерация импликаций для контекста животных" classname="Импликации строятся корректно из замкнутых множеств" time="0.009">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р“РµРЅРµСЂР°С†РёСЏ РёРјРїР»РёРєР°С†РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚Р° Р¶РёРІРѕС‚РЅС‹С…      &amp#27;[90m# src/test/resources/features/implication_generation.feature:20&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m    &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ Р±РѕР»СЊС€Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_Р±РѕР»СЊС€Рµ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґР°СЏ РёРјРїР»РёРєР°С†РёСЏ РёРјРµРµС‚ РЅРµРїСѓСЃС‚РѕРµ Р·Р°РєР»СЋС‡РµРЅРёРµ&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РЅРµРїСѓСЃС‚РѕРµ_Р·Р°РєР»СЋС‡РµРЅРёРµ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРїРѕСЃС‹Р»РєР° Рё Р·Р°РєР»СЋС‡РµРЅРёРµ РєР°Р¶РґРѕР№ РёРјРїР»РёРєР°С†РёРё РЅРµ РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РїРѕСЃС‹Р»РєР°_Рё_Р·Р°РєР»СЋС‡РµРЅРёРµ_РЅРµ_РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Генерация импликаций для контекста животных" classname="Импликации строятся корректно из замкнутых множеств" time="0.004">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р“РµРЅРµСЂР°С†РёСЏ РёРјРїР»РёРєР°С†РёР№ РґР»СЏ РєРѕРЅС‚РµРєСЃС‚Р° Р¶РёРІРѕС‚РЅС‹С…      &amp#27;[90m# src/test/resources/features/implication_generation.feature:20&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                 &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m    &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ Р±РѕР»СЊС€Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_Р±РѕР»СЊС€Рµ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРєР°Р¶РґР°СЏ РёРјРїР»РёРєР°С†РёСЏ РёРјРµРµС‚ РЅРµРїСѓСЃС‚РѕРµ Р·Р°РєР»СЋС‡РµРЅРёРµ&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РЅРµРїСѓСЃС‚РѕРµ_Р·Р°РєР»СЋС‡РµРЅРёРµ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРїРѕСЃС‹Р»РєР° Рё Р·Р°РєР»СЋС‡РµРЅРёРµ РєР°Р¶РґРѕР№ РёРјРїР»РёРєР°С†РёРё РЅРµ РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РїРѕСЃС‹Р»РєР°_Рё_Р·Р°РєР»СЋС‡РµРЅРёРµ_РЅРµ_РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Импликации от двух реализаций CbO совпадают" classname="Импликации строятся корректно из замкнутых множеств" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р�РјРїР»РёРєР°С†РёРё РѕС‚ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃРѕРІРїР°РґР°СЋС‚        &amp#27;[90m# src/test/resources/features/implication_generation.feature:27&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                   &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m      &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕС…СЂР°РЅСЏСЋ РёРјРїР»РёРєР°С†РёРё РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_1"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃРѕС…СЂР°РЅСЏСЋ_РёРјРїР»РёРєР°С†РёРё(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕС…СЂР°РЅСЏСЋ РёРјРїР»РёРєР°С†РёРё РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_2"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃРѕС…СЂР°РЅСЏСЋ_РёРјРїР»РёРєР°С†РёРё(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_1"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_2"&amp#27;[0m&amp#27;[32m СЃРѕРґРµСЂР¶Р°С‚ РѕРґРёРЅР°РєРѕРІС‹Рµ РёРјРїР»РёРєР°С†РёРё&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РЅР°Р±РѕСЂС‹_РѕРґРёРЅР°РєРѕРІС‹Рµ(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Импликации от двух реализаций CbO совпадают" classname="Импликации строятся корректно из замкнутых множеств" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р�РјРїР»РёРєР°С†РёРё РѕС‚ РґРІСѓС… СЂРµР°Р»РёР·Р°С†РёР№ CbO СЃРѕРІРїР°РґР°СЋС‚        &amp#27;[90m# src/test/resources/features/implication_generation.feature:27&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                   &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m      &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕС…СЂР°РЅСЏСЋ РёРјРїР»РёРєР°С†РёРё РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_1"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃРѕС…СЂР°РЅСЏСЋ_РёРјРїР»РёРєР°С†РёРё(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m         &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕС…СЂР°РЅСЏСЋ РёРјРїР»РёРєР°С†РёРё РєР°Рє &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_2"&amp#27;[0m                        &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃРѕС…СЂР°РЅСЏСЋ_РёРјРїР»РёРєР°С†РёРё(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_1"&amp#27;[0m&amp#27;[32m Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m"РЅР°Р±РѕСЂ_2"&amp#27;[0m&amp#27;[32m СЃРѕРґРµСЂР¶Р°С‚ РѕРґРёРЅР°РєРѕРІС‹Рµ РёРјРїР»РёРєР°С†РёРё&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РЅР°Р±РѕСЂС‹_РѕРґРёРЅР°РєРѕРІС‹Рµ(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пустой список понятий не генерирует импликаций" classname="Особые случаи обрабатываются корректно" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџСѓСЃС‚РѕР№ СЃРїРёСЃРѕРє РїРѕРЅСЏС‚РёР№ РЅРµ РіРµРЅРµСЂРёСЂСѓРµС‚ РёРјРїР»РёРєР°С†РёР№ &amp#27;[90m# src/test/resources/features/implication_generation.feature:38&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РёР· РїСѓСЃС‚РѕРіРѕ СЃРїРёСЃРєР° РїРѕРЅСЏС‚РёР№&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёР·_РїСѓСЃС‚РѕРіРѕ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                    &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_СЂР°РІРЅРѕ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пустой список понятий не генерирует импликаций" classname="Особые случаи обрабатываются корректно" time="0.007">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџСѓСЃС‚РѕР№ СЃРїРёСЃРѕРє РїРѕРЅСЏС‚РёР№ РЅРµ РіРµРЅРµСЂРёСЂСѓРµС‚ РёРјРїР»РёРєР°С†РёР№ &amp#27;[90m# src/test/resources/features/implication_generation.feature:38&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РёР· РїСѓСЃС‚РѕРіРѕ СЃРїРёСЃРєР° РїРѕРЅСЏС‚РёР№&amp#27;[0m &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёР·_РїСѓСЃС‚РѕРіРѕ()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                    &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_СЂР°РІРЅРѕ(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Полный контекст порождает импликации из одноэлементных посылок" classname="Особые случаи обрабатываются корректно" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕР»РЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ РїРѕСЂРѕР¶РґР°РµС‚ РёРјРїР»РёРєР°С†РёРё РёР· РѕРґРЅРѕСЌР»РµРјРµРЅС‚РЅС‹С… РїРѕСЃС‹Р»РѕРє &amp#27;[90m# src/test/resources/features/implication_generation.feature:42&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РїРѕР»РЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.Р·Р°РґР°РЅ_РїРѕР»РЅС‹Р№_РєРѕРЅС‚РµРєСЃС‚(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ Р±РѕР»СЊС€Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_Р±РѕР»СЊС€Рµ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРїРѕСЃС‹Р»РєР° Рё Р·Р°РєР»СЋС‡РµРЅРёРµ РєР°Р¶РґРѕР№ РёРјРїР»РёРєР°С†РёРё РЅРµ РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ&amp#27;[0m               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РїРѕСЃС‹Р»РєР°_Рё_Р·Р°РєР»СЋС‡РµРЅРёРµ_РЅРµ_РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Полный контекст порождает импликации из одноэлементных посылок" classname="Особые случаи обрабатываются корректно" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџРѕР»РЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ РїРѕСЂРѕР¶РґР°РµС‚ РёРјРїР»РёРєР°С†РёРё РёР· РѕРґРЅРѕСЌР»РµРјРµРЅС‚РЅС‹С… РїРѕСЃС‹Р»РѕРє &amp#27;[90m# src/test/resources/features/implication_generation.feature:42&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mСЃСѓС‰РµСЃС‚РІСѓРµС‚ РіРµРЅРµСЂР°С‚РѕСЂ РёРјРїР»РёРєР°С†РёР№&amp#27;[0m                               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.СЃСѓС‰РµСЃС‚РІСѓРµС‚_РіРµРЅРµСЂР°С‚РѕСЂ()&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ С„РѕСЂРјР°Р»СЊРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ СЃ С‚Р°Р±Р»РёС†РµР№ РёРЅС†РёРґРµРЅС‚РЅРѕСЃС‚Рё:&amp#27;[0m                  &amp#27;[90m# com.fca.bdd.FormalContextSteps.Р·Р°РґР°РЅ_РєРѕРЅС‚РµРєСЃС‚_СЃ_С‚Р°Р±Р»РёС†РµР№(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | РѕР±СЉРµРєС‚   | РјР»РµРєРѕРїРёС‚Р°СЋС‰РµРµ | РїС‚РёС†Р° | Р»РµС‚Р°РµС‚ | РїР»Р°РІР°РµС‚ | С…РёС‰РЅРёРє | С‚РµРїР»РѕРєСЂРѕРІРЅРѕРµ |
+    | Р›РµРІ      | РґР°            | РЅРµС‚   | РЅРµС‚    | РЅРµС‚     | РґР°     | РґР°           |
+    | РћСЂС‘Р»     | РЅРµС‚           | РґР°    | РґР°     | РЅРµС‚     | РґР°     | РґР°           |
+    | Р”РµР»СЊС„РёРЅ  | РґР°            | РЅРµС‚   | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | РџРёРЅРіРІРёРЅ  | РЅРµС‚           | РґР°    | РЅРµС‚    | РґР°      | РЅРµС‚    | РґР°           |
+    | Р›РµС‚_РјС‹С€СЊ | РґР°            | РЅРµС‚   | РґР°     | РЅРµС‚     | РЅРµС‚    | РґР°           |
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mР·Р°РґР°РЅ РїРѕР»РЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32mx&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.Р·Р°РґР°РЅ_РїРѕР»РЅС‹Р№_РєРѕРЅС‚РµРєСЃС‚(int,int)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ РІС‹С‡РёСЃР»СЏСЋ РїРѕРЅСЏС‚РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РІС‹С‡РёСЃР»СЏСЋ_РїРѕРЅСЏС‚РёСЏ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРіРµРЅРµСЂРёСЂСѓСЋ РёРјРїР»РёРєР°С†РёРё РЅР° РѕСЃРЅРѕРІРµ РЅР°Р№РґРµРЅРЅС‹С… РїРѕРЅСЏС‚РёР№&amp#27;[0m                     &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РіРµРЅРµСЂРёСЂСѓСЋ_РёРјРїР»РёРєР°С†РёРё()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРєРѕР»РёС‡РµСЃС‚РІРѕ РёРјРїР»РёРєР°С†РёР№ Р±РѕР»СЊС€Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                   &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РєРѕР»РёС‡РµСЃС‚РІРѕ_Р±РѕР»СЊС€Рµ(int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРїРѕСЃС‹Р»РєР° Рё Р·Р°РєР»СЋС‡РµРЅРёРµ РєР°Р¶РґРѕР№ РёРјРїР»РёРєР°С†РёРё РЅРµ РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ&amp#27;[0m               &amp#27;[90m# com.fca.bdd.ImplicationGenerationSteps.РїРѕСЃС‹Р»РєР°_Рё_Р·Р°РєР»СЋС‡РµРЅРёРµ_РЅРµ_РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сериализация результата анализа в JSON-строку" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.009">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РЎРµСЂРёР°Р»РёР·Р°С†РёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р° Р°РЅР°Р»РёР·Р° РІ JSON-СЃС‚СЂРѕРєСѓ                                     &amp#27;[90m# src/test/resources/features/result_export.feature:10&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m                                                       &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"algorithmName"&amp#27;[0m&amp#27;[32m СЃРѕ Р·РЅР°С‡РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_РїРѕР»Рµ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"statistics"&amp#27;[0m                                                       &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"concepts"&amp#27;[0m                                                         &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"implications"&amp#27;[0m                                                     &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Сериализация результата анализа в JSON-строку" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.006">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РЎРµСЂРёР°Р»РёР·Р°С†РёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р° Р°РЅР°Р»РёР·Р° РІ JSON-СЃС‚СЂРѕРєСѓ                                     &amp#27;[90m# src/test/resources/features/result_export.feature:10&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m                                                       &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"algorithmName"&amp#27;[0m&amp#27;[32m СЃРѕ Р·РЅР°С‡РµРЅРёРµРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m                      &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_РїРѕР»Рµ(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"statistics"&amp#27;[0m                                                       &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"concepts"&amp#27;[0m                                                         &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"implications"&amp#27;[0m                                                     &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Статистика в JSON соответствует результату" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.007">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РЎС‚Р°С‚РёСЃС‚РёРєР° РІ JSON СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ                                             &amp#27;[90m# src/test/resources/features/result_export.feature:18&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m                                                            &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІ СЃРµРєС†РёРё statistics РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"objectCount"&amp#27;[0m&amp#27;[32m СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                                           &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃС‚Р°С‚РёСЃС‚РёРєР°_РїРѕР»Рµ_СЂР°РІРЅРѕ(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРІ СЃРµРєС†РёРё statistics РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"attributeCount"&amp#27;[0m&amp#27;[32m СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m                                            &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃС‚Р°С‚РёСЃС‚РёРєР°_РїРѕР»Рµ_СЂР°РІРЅРѕ(java.lang.String,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Статистика в JSON соответствует результату" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.008">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РЎС‚Р°С‚РёСЃС‚РёРєР° РІ JSON СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ                                             &amp#27;[90m# src/test/resources/features/result_export.feature:18&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (Collections)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m                                                            &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mРІ СЃРµРєС†РёРё statistics РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"objectCount"&amp#27;[0m&amp#27;[32m СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                                           &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃС‚Р°С‚РёСЃС‚РёРєР°_РїРѕР»Рµ_СЂР°РІРЅРѕ(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mРІ СЃРµРєС†РёРё statistics РїРѕР»Рµ &amp#27;[0m&amp#27;[32m&amp#27;[1m"attributeCount"&amp#27;[0m&amp#27;[32m СЂР°РІРЅРѕ &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m                                            &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃС‚Р°С‚РёСЃС‚РёРєР°_РїРѕР»Рµ_СЂР°РІРЅРѕ(java.lang.String,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Запись результатов в файл и обратное чтение" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.024">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РїРёСЃСЊ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РІ С„Р°Р№Р» Рё РѕР±СЂР°С‚РЅРѕРµ С‡С‚РµРЅРёРµ                                       &amp#27;[90m# src/test/resources/features/result_export.feature:24&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїРёСЃС‹РІР°СЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ С„Р°Р№Р» &amp#27;[0m&amp#27;[32m&amp#27;[1m"test-output-bdd.json"&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.ResultExportSteps.Р·Р°РїРёСЃС‹РІР°СЋ_РІ_С„Р°Р№Р»(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mС„Р°Р№Р» &amp#27;[0m&amp#27;[32m&amp#27;[1m"test-output-bdd.json"&amp#27;[0m&amp#27;[32m СЃСѓС‰РµСЃС‚РІСѓРµС‚&amp#27;[0m                                              &amp#27;[90m# com.fca.bdd.ResultExportSteps.С„Р°Р№Р»_СЃСѓС‰РµСЃС‚РІСѓРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕРґРµСЂР¶РёРјРѕРµ С„Р°Р№Р»Р° СЏРІР»СЏРµС‚СЃСЏ РІР°Р»РёРґРЅС‹Рј JSON&amp#27;[0m                                                 &amp#27;[90m# com.fca.bdd.ResultExportSteps.С„Р°Р№Р»_РІР°Р»РёРґРЅС‹Р№_json()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Запись результатов в файл и обратное чтение" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.02">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: Р—Р°РїРёСЃСЊ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РІ С„Р°Р№Р» Рё РѕР±СЂР°С‚РЅРѕРµ С‡С‚РµРЅРёРµ                                       &amp#27;[90m# src/test/resources/features/result_export.feature:24&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РєРѕРЅС‚РµРєСЃС‚Р° СЃ &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m РѕР±СЉРµРєС‚Р°РјРё Рё &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m Р°С‚СЂРёР±СѓС‚Р°РјРё Р°Р»РіРѕСЂРёС‚РјРѕРј &amp#27;[0m&amp#27;[32m&amp#27;[1m"CbO (BitSet)"&amp#27;[0m &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ Р·Р°РїРёСЃС‹РІР°СЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ С„Р°Р№Р» &amp#27;[0m&amp#27;[32m&amp#27;[1m"test-output-bdd.json"&amp#27;[0m                                 &amp#27;[90m# com.fca.bdd.ResultExportSteps.Р·Р°РїРёСЃС‹РІР°СЋ_РІ_С„Р°Р№Р»(java.lang.String)&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mС„Р°Р№Р» &amp#27;[0m&amp#27;[32m&amp#27;[1m"test-output-bdd.json"&amp#27;[0m&amp#27;[32m СЃСѓС‰РµСЃС‚РІСѓРµС‚&amp#27;[0m                                              &amp#27;[90m# com.fca.bdd.ResultExportSteps.С„Р°Р№Р»_СЃСѓС‰РµСЃС‚РІСѓРµС‚(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mСЃРѕРґРµСЂР¶РёРјРѕРµ С„Р°Р№Р»Р° СЏРІР»СЏРµС‚СЃСЏ РІР°Р»РёРґРЅС‹Рј JSON&amp#27;[0m                                                 &amp#27;[90m# com.fca.bdd.ResultExportSteps.С„Р°Р№Р»_РІР°Р»РёРґРЅС‹Р№_json()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пустой результат корректно сериализуется" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.005">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџСѓСЃС‚РѕР№ СЂРµР·СѓР»СЊС‚Р°С‚ РєРѕСЂСЂРµРєС‚РЅРѕ СЃРµСЂРёР°Р»РёР·СѓРµС‚СЃСЏ &amp#27;[90m# src/test/resources/features/result_export.feature:30&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РїСѓСЃС‚РѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р°&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·_РїСѓСЃС‚РѕРіРѕ()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m              &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"concepts"&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"implications"&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Пустой результат корректно сериализуется" classname="Результат сериализуется в валидный JSON с полной статистикой" time="0.003">
+    <system-out><![CDATA[
+РЎС†РµРЅР°СЂРёР№: РџСѓСЃС‚РѕР№ СЂРµР·СѓР»СЊС‚Р°С‚ РєРѕСЂСЂРµРєС‚РЅРѕ СЃРµСЂРёР°Р»РёР·СѓРµС‚СЃСЏ &amp#27;[90m# src/test/resources/features/result_export.feature:30&amp#27;[0m
+  &amp#27;[32mР”РѕРїСѓСЃС‚РёРј &amp#27;[0m&amp#27;[32mРІС‹РїРѕР»РЅРµРЅ Р°РЅР°Р»РёР· РїСѓСЃС‚РѕРіРѕ РєРѕРЅС‚РµРєСЃС‚Р°&amp#27;[0m       &amp#27;[90m# com.fca.bdd.ResultExportSteps.РІС‹РїРѕР»РЅРµРЅ_Р°РЅР°Р»РёР·_РїСѓСЃС‚РѕРіРѕ()&amp#27;[0m
+  &amp#27;[32mРљРѕРіРґР° &amp#27;[0m&amp#27;[32mСЏ СЃРµСЂРёР°Р»РёР·СѓСЋ СЂРµР·СѓР»СЊС‚Р°С‚ РІ JSON&amp#27;[0m              &amp#27;[90m# com.fca.bdd.ResultExportSteps.СЃРµСЂРёР°Р»РёР·СѓСЋ_РІ_json()&amp#27;[0m
+  &amp#27;[32mРўРѕРіРґР° &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"concepts"&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+  &amp#27;[32mР� &amp#27;[0m&amp#27;[32mJSON СЃРѕРґРµСЂР¶РёС‚ СЃРµРєС†РёСЋ &amp#27;[0m&amp#27;[32m&amp#27;[1m"implications"&amp#27;[0m            &amp#27;[90m# com.fca.bdd.ResultExportSteps.json_СЃРѕРґРµСЂР¶РёС‚_СЃРµРєС†РёСЋ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
