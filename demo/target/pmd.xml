@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-04-05T22:14:23.399">
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\Main.java">
+<violation beginline="19" endline="19" begincolumn="17" endcolumn="23" rule="CloseResource" ruleset="Error Prone" package="com.fca" class="Main" method="main" variable="scanner" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="20" endline="20" begincolumn="21" endcolumn="23" rule="CloseResource" ruleset="Error Prone" package="com.fca" class="Main" method="main" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this PrintStream object are closed after use
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\algorithm\BitSetCbo.java">
+<violation beginline="22" endline="58" begincolumn="13" endcolumn="43" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="BitSetCbo" method="computeConcepts" variable="nObj" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nObj' (lines '22'-'58').
+</violation>
+<violation beginline="30" endline="32" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="BitSetCbo" method="computeConcepts" variable="attrExtents" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'attrExtents' (lines '30'-'32').
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="BitSetCbo" method="computeConcepts" variable="attrExtents" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'attrExtents' (lines '32'-'32').
+</violation>
+<violation beginline="40" endline="42" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="BitSetCbo" method="computeConcepts" variable="objIntents" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'objIntents' (lines '40'-'42').
+</violation>
+<violation beginline="42" endline="42" begincolumn="13" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="BitSetCbo" method="computeConcepts" variable="objIntents" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'objIntents' (lines '42'-'42').
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\algorithm\CollectionCbo.java">
+<violation beginline="20" endline="51" begincolumn="13" endcolumn="43" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="CollectionCbo" method="computeConcepts" variable="nObj" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nObj' (lines '20'-'51').
+</violation>
+<violation beginline="31" endline="31" begincolumn="32" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.algorithm" class="CollectionCbo" method="computeConcepts" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="61" endline="61" begincolumn="42" endcolumn="62" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.algorithm" class="CollectionCbo" method="cbo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="94" endline="97" begincolumn="21" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.algorithm" class="CollectionCbo" method="computeIntent" variable="allHave" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'allHave' (lines '94'-'97').
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\cli\ConsoleMenu.java">
+<violation beginline="55" endline="55" begincolumn="36" endcolumn="54" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.cli" class="ConsoleMenu" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="56" endline="56" begincolumn="36" endcolumn="50" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.cli" class="ConsoleMenu" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="123" endline="157" begincolumn="26" endcolumn="73" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" variable="objects" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'objects' (lines '123'-'157').
+</violation>
+<violation beginline="135" endline="146" begincolumn="21" endcolumn="84" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '135'-'146').
+</violation>
+<violation beginline="135" endline="157" begincolumn="25" endcolumn="82" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'incidence' (lines '135'-'157').
+</violation>
+<violation beginline="146" endline="146" begincolumn="21" endcolumn="84" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '146'-'146').
+</violation>
+<violation beginline="146" endline="157" begincolumn="21" endcolumn="84" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'incidence' (lines '146'-'157').
+</violation>
+<violation beginline="146" endline="146" begincolumn="39" endcolumn="59" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="146" endline="146" begincolumn="64" endcolumn="84" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="151" endline="151" begincolumn="26" endcolumn="29" rule="NullAssignment" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="enterContextManually" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="170" endline="170" begincolumn="26" endcolumn="29" rule="NullAssignment" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="loadContextFromJson" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="178" endline="178" begincolumn="33" endcolumn="47" rule="UseProperClassLoader" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="loadSampleContext" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#useproperclassloader" priority="3">
+In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+</violation>
+<violation beginline="182" endline="182" begincolumn="17" endcolumn="99" rule="CloseResource" ruleset="Error Prone" package="com.fca.cli" class="ConsoleMenu" method="loadSampleContext" variable="reader" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+it is recommended to wrap resource in try-with-resource declaration directly
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\experiment\GenerateMaxDatasets.java">
+<violation beginline="39" endline="39" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="GenerateMaxDatasets" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="45" endline="53" begincolumn="16" endcolumn="42" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="GenerateMaxDatasets" method="generate" variable="json" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'json' (lines '45'-'53').
+</violation>
+<violation beginline="51" endline="51" begincolumn="13" endcolumn="29" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="GenerateMaxDatasets" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="56" endline="66" begincolumn="16" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="GenerateMaxDatasets" method="makeContext" variable="rnd" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'rnd' (lines '56'-'66').
+</violation>
+<violation beginline="61" endline="64" begincolumn="17" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="GenerateMaxDatasets" method="makeContext" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '61'-'64').
+</violation>
+<violation beginline="64" endline="64" begincolumn="17" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="GenerateMaxDatasets" method="makeContext" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '64'-'64').
+</violation>
+<violation beginline="82" endline="82" begincolumn="29" endcolumn="43" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.experiment" class="GenerateMaxDatasets" method="toJson" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\experiment\PreliminaryExperiment.java">
+<violation beginline="33" endline="33" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="33" endline="33" begincolumn="28" endcolumn="93" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "================================================================" appears 4 times in this file; the first occurrence is on line 33
+</violation>
+<violation beginline="34" endline="34" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="35" endline="35" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="40" endline="40" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="50" endline="50" begincolumn="13" endcolumn="29" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="52" endline="52" begincolumn="13" endcolumn="29" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="25" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="55" endline="55" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="59" endline="120" begincolumn="23" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" variable="coll" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'coll' (lines '59'-'120').
+</violation>
+<violation beginline="60" endline="120" begincolumn="19" endcolumn="38" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" variable="bs" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'bs' (lines '60'-'120').
+</violation>
+<violation beginline="61" endline="120" begincolumn="30" endcolumn="61" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" variable="gen" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'gen' (lines '61'-'120').
+</violation>
+<violation beginline="63" endline="120" begincolumn="13" endcolumn="27" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" variable="nObj" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nObj' (lines '63'-'120').
+</violation>
+<violation beginline="64" endline="120" begincolumn="13" endcolumn="29" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" variable="nAttr" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'nAttr' (lines '64'-'120').
+</violation>
+<violation beginline="66" endline="66" begincolumn="9" endcolumn="25" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="68" endline="68" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="74" endline="74" begincolumn="24" endcolumn="27" rule="ReturnEmptyCollectionRatherThanNull" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#returnemptycollectionratherthannull" priority="1">
+Return an empty collection rather than null.
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="29" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="99" endline="99" begincolumn="17" endcolumn="33" rule="SystemPrintln" ruleset="Best Practices" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="107" endline="107" begincolumn="28" endcolumn="30" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="110" endline="110" begincolumn="29" endcolumn="30" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="111" endline="111" begincolumn="34" endcolumn="36" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="112" endline="112" begincolumn="34" endcolumn="37" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="113" endline="113" begincolumn="34" endcolumn="38" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="iterate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="123" endline="133" begincolumn="23" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="warmup" variable="w" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'w' (lines '123'-'133').
+</violation>
+<violation beginline="124" endline="133" begincolumn="23" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="warmup" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'c' (lines '124'-'133').
+</violation>
+<violation beginline="125" endline="133" begincolumn="19" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="warmup" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'b' (lines '125'-'133').
+</violation>
+<violation beginline="126" endline="133" begincolumn="30" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="warmup" variable="g" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'g' (lines '126'-'133').
+</violation>
+<violation beginline="136" endline="146" begincolumn="16" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="makeContext" variable="rnd" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'rnd' (lines '136'-'146').
+</violation>
+<violation beginline="141" endline="144" begincolumn="17" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="makeContext" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '141'-'144').
+</violation>
+<violation beginline="144" endline="144" begincolumn="17" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.experiment" class="PreliminaryExperiment" method="makeContext" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '144'-'144').
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\implication\ImplicationGenerator.java">
+<violation beginline="30" endline="67" begincolumn="26" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.implication" class="ImplicationGenerator" method="generate" variable="processedPremises" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'processedPremises' (lines '30'-'67').
+</violation>
+<violation beginline="43" endline="43" begincolumn="43" endcolumn="63" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.implication" class="ImplicationGenerator" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="56" endline="56" begincolumn="46" endcolumn="67" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.implication" class="ImplicationGenerator" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\io\JsonDataLoader.java">
+<violation beginline="73" endline="77" begincolumn="17" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.io" class="JsonDataLoader" method="parseJsonObject" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '73'-'77').
+</violation>
+<violation beginline="77" endline="77" begincolumn="17" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.io" class="JsonDataLoader" method="parseJsonObject" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'incidence' (lines '77'-'77').
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\io\JsonResultWriter.java">
+<violation beginline="56" endline="56" begincolumn="31" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.io" class="JsonResultWriter" method="toJson" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="66" endline="66" begincolumn="31" endcolumn="46" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="com.fca.io" class="JsonResultWriter" method="toJson" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\model\AnalysisResult.java">
+<violation beginline="43" endline="43" begincolumn="23" endcolumn="24" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuilder has been initialized with size 16, but has at least 210 characters appended.
+</violation>
+<violation beginline="44" endline="44" begincolumn="66" endcolumn="75" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 2 consecutive times with literals. Use a single append with a single combined String.
+</violation>
+<violation beginline="44" endline="44" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="45" endline="45" begincolumn="107" endcolumn="110" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="45" endline="45" begincolumn="106" endcolumn="111" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 2 consecutive times with literals. Use a single append with a single combined String.
+</violation>
+<violation beginline="45" endline="45" begincolumn="9" endcolumn="112" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="46" endline="46" begincolumn="71" endcolumn="74" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="46" endline="46" begincolumn="70" endcolumn="75" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 2 consecutive times with literals. Use a single append with a single combined String.
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="47" endline="47" begincolumn="78" endcolumn="81" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="83" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="86" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="51" endline="51" begincolumn="87" endcolumn="90" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="58" endline="58" begincolumn="91" endcolumn="94" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="AnalysisResult" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\model\FormalContext.java">
+<violation beginline="15" endline="15" begincolumn="73" endcolumn="93" rule="UseVarargs" ruleset="Best Practices" package="com.fca.model" class="FormalContext" method="FormalContext" variable="incidence" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="66" endline="70" begincolumn="21" endcolumn="34" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="computeExtent" variable="hasAll" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'hasAll' (lines '66'-'70').
+</violation>
+<violation beginline="85" endline="89" begincolumn="21" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="computeIntent" variable="allHave" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'allHave' (lines '85'-'89').
+</violation>
+<violation beginline="107" endline="107" begincolumn="23" endcolumn="24" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuilder has been initialized with size 16, but has at least 58 characters appended.
+</violation>
+<violation beginline="119" endline="121" begincolumn="13" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="toString" variable="colWidths" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'colWidths' (lines '119'-'121').
+</violation>
+<violation beginline="119" endline="149" begincolumn="15" endcolumn="52" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="toString" variable="colWidths" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'colWidths' (lines '119'-'149').
+</violation>
+<violation beginline="121" endline="121" begincolumn="13" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="toString" variable="colWidths" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'colWidths' (lines '121'-'121').
+</violation>
+<violation beginline="121" endline="149" begincolumn="13" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="com.fca.model" class="FormalContext" method="toString" variable="colWidths" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'colWidths' (lines '121'-'149').
+</violation>
+<violation beginline="129" endline="129" begincolumn="19" endcolumn="22" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="129" endline="129" begincolumn="18" endcolumn="23" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 3 consecutive times with literals. Use a single append with a single combined String.
+</violation>
+<violation beginline="129" endline="129" begincolumn="9" endcolumn="24" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="132" endline="132" begincolumn="48" endcolumn="50" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="136" endline="136" begincolumn="19" endcolumn="22" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+<violation beginline="146" endline="146" begincolumn="23" endcolumn="26" rule="AppendCharacterWithChar" ruleset="Performance" package="com.fca.model" class="FormalContext" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#appendcharacterwithchar" priority="3">
+Avoid appending characters as strings in StringBuffer.append.
+</violation>
+</file>
+<file name="C:\Users\romar\OneDrive\Рабочий стол\Учеба_3\6 семестр\МТПО\РаховРИ_3\demo\datasets\src\main\java\com\fca\service\ComparisonResult.java">
+<violation beginline="35" endline="35" begincolumn="23" endcolumn="24" rule="InsufficientStringBufferDeclaration" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#insufficientstringbufferdeclaration" priority="3">
+StringBuilder has been initialized with size 16, but has at least 433 characters appended.
+</violation>
+<violation beginline="36" endline="36" begincolumn="18" endcolumn="75" rule="ConsecutiveLiteralAppends" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveliteralappends" priority="3">
+StringBuffer (or StringBuilder).append is called 3 consecutive times with literals. Use a single append with a single combined String.
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="38" endline="38" begincolumn="19" endcolumn="74" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "╠══════════════════════════════════════════════════╣\n" appears 4 times in this file; the first occurrence is on line 38
+</violation>
+<violation beginline="39" endline="39" begincolumn="9" endcolumn="96" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="40" endline="40" begincolumn="9" endcolumn="88" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="42" endline="43" begincolumn="9" endcolumn="71" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="44" endline="45" begincolumn="9" endcolumn="79" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="46" endline="47" begincolumn="9" endcolumn="77" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="76" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="49" endline="50" begincolumn="9" endcolumn="51" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="51" endline="52" begincolumn="9" endcolumn="55" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="58" endline="58" begincolumn="23" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="com.fca.service" class="ComparisonResult" method="getSummary" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+</file>
+</pmd>

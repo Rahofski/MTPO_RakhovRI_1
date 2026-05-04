@@ -87,14 +87,51 @@
             <version>1.10.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Jazzer fuzz testing -->
+        <dependency>
+            <groupId>com.code-intelligence</groupId>
+            <artifactId>jazzer-junit</artifactId>
+            <version>0.22.1</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.platform</groupId>
+                    <artifactId>junit-platform-launcher</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.junit.platform</groupId>
+                    <artifactId>junit-platform-commons</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>1.10.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
+        <sourceDirectory>datasets/src/main/java</sourceDirectory>
+        <testSourceDirectory>datasets/src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>datasets/src/test/resources</directory>
+            </testResource>
+        </testResources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
+                <configuration>
+                    <classpathDependencyExcludes>
+                        <exclude>io.cucumber:cucumber-junit-platform-engine</exclude>
+                    </classpathDependencyExcludes>
+                </configuration>
             </plugin>
 
             <plugin>
@@ -140,6 +177,42 @@
                         <outputFormat>XML</outputFormat>
                     </outputFormats>
                     <timestampedReports>false</timestampedReports>
+                </configuration>
+            </plugin>
+
+            <!-- SpotBugs статический анализатор -->
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.8.3.1</version>
+                <configuration>
+                    <effort>Max</effort>
+                    <threshold>Low</threshold>
+                    <xmlOutput>true</xmlOutput>
+                    <plugins>
+                        <plugin>
+                            <groupId>com.h3xstream.findsecbugs</groupId>
+                            <artifactId>findsecbugs-plugin</artifactId>
+                            <version>1.13.0</version>
+                        </plugin>
+                    </plugins>
+                </configuration>
+            </plugin>
+
+            <!-- PMD статический анализатор (для сравнения с SonarQube) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.21.2</version>
+                <configuration>
+                    <targetJdk>17</targetJdk>
+                    <rulesets>
+                        <ruleset>/category/java/errorprone.xml</ruleset>
+                        <ruleset>/category/java/bestpractices.xml</ruleset>
+                        <ruleset>/category/java/security.xml</ruleset>
+                        <ruleset>/category/java/performance.xml</ruleset>
+                    </rulesets>
+                    <includeTests>false</includeTests>
                 </configuration>
             </plugin>
         </plugins>

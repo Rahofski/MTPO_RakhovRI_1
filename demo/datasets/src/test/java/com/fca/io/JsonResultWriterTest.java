@@ -4,6 +4,7 @@ import com.fca.model.*;
 import com.google.gson.*;
 import org.junit.jupiter.api.*;
 
+import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
 
@@ -121,5 +122,18 @@ class JsonResultWriterTest {
         String json = writer.toJson(sampleResult());
         JsonObject root = JsonParser.parseString(json).getAsJsonObject();
         assertEquals("TestAlgo", root.get("algorithmName").getAsString());
+    }
+
+    @Test
+    @DisplayName("TC-EP-18: недоступный путь сохранения JSON вызывает ошибку записи")
+    void epUnavailableSavePathThrowsIoError() throws Exception {
+        Path parentFile = Files.createTempFile("fca-result-parent-", ".tmp");
+        try {
+            Path invalidDestination = parentFile.resolve("result.json");
+            assertThrows(IOException.class,
+                    () -> writer.write(sampleResult(), invalidDestination.toString()));
+        } finally {
+            Files.deleteIfExists(parentFile);
+        }
     }
 }

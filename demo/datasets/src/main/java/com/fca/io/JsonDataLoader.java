@@ -71,18 +71,14 @@ public class JsonDataLoader implements DataLoader {
         }
 
         if (incArr.size() != objects.size()) {
-            throw new JsonParseException(
-                    "Число строк incidence (" + incArr.size() +
-                            ") не совпадает с числом объектов (" + objects.size() + ")");
+            throw new JsonParseException("Размерность incidence не совпадает с числом объектов");
         }
 
         boolean[][] incidence = new boolean[objects.size()][attributes.size()];
         for (int i = 0; i < incArr.size(); i++) {
             JsonArray row = incArr.get(i).getAsJsonArray();
             if (row.size() != attributes.size()) {
-                throw new JsonParseException(
-                        "Строка " + i + " incidence имеет " + row.size() +
-                                " элементов, ожидалось " + attributes.size());
+                throw new JsonParseException("Размерность incidence не совпадает с числом атрибутов");
             }
             for (int j = 0; j < row.size(); j++) {
                 incidence[i][j] = row.get(j).getAsBoolean();

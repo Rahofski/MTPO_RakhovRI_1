@@ -8,6 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,18 +24,19 @@ class JsonDataLoaderTest {
 
     private final JsonDataLoader loader = new JsonDataLoader();
 
+        private static final String VALID_MINIMAL_JSON = """
+                        {
+                            "objects": ["o1", "o2"],
+                            "attributes": ["a1", "a2"],
+                            "incidence": [[true, false], [false, true]]
+                        }
+                        """;
+
     // ===== Позитивные тесты =====
     @Test
     @DisplayName("Парсинг корректного JSON")
     void parseValidJson() {
-        String json = """
-                {
-                  "objects": ["o1", "o2"],
-                  "attributes": ["a1", "a2"],
-                  "incidence": [[true, false], [false, true]]
-                }
-                """;
-        FormalContext ctx = loader.parseString(json);
+        FormalContext ctx = loader.parseString(VALID_MINIMAL_JSON);
         assertAll(
                 () -> assertEquals(2, ctx.getObjectCount()),
                 () -> assertEquals(2, ctx.getAttributeCount()),
@@ -79,16 +81,35 @@ class JsonDataLoaderTest {
     void loadFromFile() throws Exception {
         Path tmpFile = Files.createTempFile("fca-test-", ".json");
         try {
-            String json = """
+            Files.writeString(tmpFile, """
                     {
                       "objects": ["a"],
                       "attributes": ["x"],
                       "incidence": [[true]]
                     }
-                    """;
-            Files.writeString(tmpFile, json);
+                    """);
             FormalContext ctx = loader.load(tmpFile.toString());
             assertEquals(1, ctx.getObjectCount());
+        } finally {
+            Files.deleteIfExists(tmpFile);
+        }
+    }
+
+    @Test
+    @DisplayName("TC-EP-01: корректный JSON-файл успешно загружается")
+    void epValidJsonFileLoadsContext() throws Exception {
+        Path tmpFile = Files.createTempFile("fca-ep-valid-", ".json");
+        try {
+            Files.writeString(tmpFile, VALID_MINIMAL_JSON);
+
+            FormalContext ctx = loader.load(tmpFile.toString());
+
+            assertAll(
+                    () -> assertEquals(List.of("o1", "o2"), ctx.getObjects()),
+                    () -> assertEquals(List.of("a1", "a2"), ctx.getAttributes()),
+                    () -> assertTrue(ctx.hasRelation(0, 0)),
+                    () -> assertTrue(ctx.hasRelation(1, 1))
+            );
         } finally {
             Files.deleteIfExists(tmpFile);
         }
@@ -99,6 +120,14 @@ class JsonDataLoaderTest {
     @DisplayName("Negative: файл не существует → IOException")
     void fileNotFound() {
         assertThrows(IOException.class, () -> loader.load("nonexistent.json"));
+    }
+
+    @Test
+    @DisplayName("TC-EP-02: несуществующий путь к JSON-файлу вызывает ошибку чтения")
+    void epMissingJsonFileThrowsIoError() {
+        IOException ex = assertThrows(IOException.class,
+                () -> loader.load("missing-ep-context.json"));
+        assertTrue(ex.getMessage().contains("Файл не найден"));
     }
 
     @Test
@@ -157,7 +186,35 @@ class JsonDataLoaderTest {
     @Test
     @DisplayName("Negative: невалидный JSON")
     void invalidJson() {
-        assertThrows(Exception.class, () -> loader.parseString("not a json"));
+                assertThrows(JsonParseException.class, () -> loader.parseString("not a json"));
+        }
+
+        @Test
+        @DisplayName("TC-EP-03: некорректный JSON вызывает ошибку разбора")
+        void epInvalidJsonThrowsParseError() {
+                assertThrows(JsonParseException.class,
+                                () -> loader.parseString("{ \"objects\": [1],"));
+        }
+
+        @ParameterizedTest(name = "TC-EP-04: неверная размерность incidence: {0}")
+        @ValueSource(strings = {
+                        """
+                        {
+                            \"objects\": [\"o1\", \"o2\"],
+                            \"attributes\": [\"a1\", \"a2\"],
+                            \"incidence\": [[true, false]]
+                        }
+                        """,
+                        """
+                        {
+                            \"objects\": [\"o1\"],
+                            \"attributes\": [\"a1\", \"a2\"],
+                            \"incidence\": [[true]]
+                        }
+                        """
+        })
+        void epWrongMatrixSizeThrowsError(String json) {
+                assertThrows(JsonParseException.class, () -> loader.parseString(json.replace("\\\"", "\"")));
     }
 
     // ===== Параметризованный тест: невалидные JSON =====

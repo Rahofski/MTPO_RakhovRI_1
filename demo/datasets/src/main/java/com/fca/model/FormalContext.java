@@ -58,6 +58,12 @@ public class FormalContext {
 
     /** B' — множество объектов, обладающих всеми атрибутами из attrSet. */
     public Set<String> computeExtent(Set<String> attrSet) {
+        if (attrSet == null) {
+            return new TreeSet<>();
+        }
+        if (attrSet.isEmpty()) {
+            return new TreeSet<>(objects);
+        }
         Set<String> extent = new TreeSet<>();
         for (int i = 0; i < objects.size(); i++) {
             boolean hasAll = true;

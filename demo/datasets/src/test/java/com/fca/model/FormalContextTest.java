@@ -205,28 +205,28 @@ class FormalContextTest {
 
     // ===== Тесты валидации =====
     @Test
-    @DisplayName("Negative: null объекты вызывают исключение")
+    @DisplayName("TC-EP-11: objects == null вызывает исключение")
     void nullObjects_throwsException() {
         assertThrows(IllegalArgumentException.class,
                 () -> new FormalContext(null, List.of("a"), new boolean[0][0]));
     }
 
     @Test
-    @DisplayName("Negative: null атрибуты вызывают исключение")
+    @DisplayName("TC-EP-12: attributes == null вызывает исключение")
     void nullAttributes_throwsException() {
         assertThrows(IllegalArgumentException.class,
                 () -> new FormalContext(List.of("x"), null, new boolean[1][0]));
     }
 
     @Test
-    @DisplayName("Negative: null матрица вызывает исключение")
+    @DisplayName("TC-EP-13: incidence == null вызывает исключение")
     void nullIncidence_throwsException() {
         assertThrows(IllegalArgumentException.class,
                 () -> new FormalContext(List.of("x"), List.of("a"), null));
     }
 
     @Test
-    @DisplayName("Negative: несовпадение размерностей строк")
+    @DisplayName("TC-EP-14: число строк матрицы не совпадает с числом объектов")
     void mismatchedRows_throwsException() {
         IllegalArgumentException ex = assertThrows(IllegalArgumentException.class,
                 () -> new FormalContext(List.of("x", "y"), List.of("a"),
@@ -235,7 +235,7 @@ class FormalContextTest {
     }
 
     @Test
-    @DisplayName("Negative: несовпадение размерностей столбцов")
+    @DisplayName("TC-EP-14: число столбцов матрицы не совпадает с числом атрибутов")
     void mismatchedColumns_throwsException() {
         assertThrows(IllegalArgumentException.class,
                 () -> new FormalContext(List.of("x"), List.of("a"),
